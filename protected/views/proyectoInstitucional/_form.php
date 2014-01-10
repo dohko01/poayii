@@ -74,33 +74,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_programa_sectorial'); ?>
-		<?php echo $form->textField($model,'id_programa_sectorial'); ?>
-		<?php echo $form->error($model,'id_programa_sectorial'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_unidad'); ?>
-		<?php echo $form->textField($model,'id_unidad'); ?>
-		<?php echo $form->error($model,'id_unidad'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_programa_presupuestario'); ?>
-		<?php echo $form->textField($model,'id_programa_presupuestario'); ?>
-		<?php echo $form->error($model,'id_programa_presupuestario'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'id_proyecto_estrategico'); ?>
 		<?php echo $form->textField($model,'id_proyecto_estrategico'); ?>
 		<?php echo $form->error($model,'id_proyecto_estrategico'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_politica_publica'); ?>
-		<?php echo $form->textField($model,'id_politica_publica'); ?>
-		<?php echo $form->error($model,'id_politica_publica'); ?>
 	</div>
 
 	<div class="row">
@@ -113,6 +89,12 @@
 		<?php echo $form->labelEx($model,'id_tipo_accion'); ?>
 		<?php echo $form->textField($model,'id_tipo_accion'); ?>
 		<?php echo $form->error($model,'id_tipo_accion'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_caratula_poa'); ?>
+		<?php echo $form->textField($model,'id_caratula_poa'); ?>
+		<?php echo $form->error($model,'id_caratula_poa'); ?>
 	</div>
 
 	<div class="row buttons">

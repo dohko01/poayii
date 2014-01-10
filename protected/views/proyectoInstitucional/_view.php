@@ -46,24 +46,8 @@
 	<?php echo CHtml::encode($data->id_programa_especial); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_programa_sectorial')); ?>:</b>
-	<?php echo CHtml::encode($data->id_programa_sectorial); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_unidad')); ?>:</b>
-	<?php echo CHtml::encode($data->id_unidad); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_programa_presupuestario')); ?>:</b>
-	<?php echo CHtml::encode($data->id_programa_presupuestario); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_proyecto_estrategico')); ?>:</b>
 	<?php echo CHtml::encode($data->id_proyecto_estrategico); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_politica_publica')); ?>:</b>
-	<?php echo CHtml::encode($data->id_politica_publica); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_proyecto_tipo')); ?>:</b>
@@ -72,6 +56,10 @@
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tipo_accion')); ?>:</b>
 	<?php echo CHtml::encode($data->id_tipo_accion); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_caratula_poa')); ?>:</b>
+	<?php echo CHtml::encode($data->id_caratula_poa); ?>
 	<br />
 
 	*/ ?>

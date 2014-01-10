@@ -30,12 +30,9 @@ $this->menu=array(
 		'id_actividad_institucional',
 		'id_sub_subfuncion',
 		'id_programa_especial',
-		'id_programa_sectorial',
-		'id_unidad',
-		'id_programa_presupuestario',
 		'id_proyecto_estrategico',
-		'id_politica_publica',
 		'id_proyecto_tipo',
 		'id_tipo_accion',
+		'id_caratula_poa',
 	),
 )); ?>

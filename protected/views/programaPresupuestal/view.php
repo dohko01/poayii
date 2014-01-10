@@ -32,12 +32,9 @@ $this->menu=array(
 		'area_enfoque_objetivo',
 		'cuantificacion_area_enfoque_objetivo',
 		'area_enfoque_potencial',
-		'id_programa_presupuestario',
-		'id_unidad',
-		'id_politica_publica',
-		'id_programa_sectorial',
 		'id_objetivo_pnd',
 		'id_objetivo_milenio',
 		'id_modalidad',
+		'id_caratula_poa',
 	),
 )); ?>

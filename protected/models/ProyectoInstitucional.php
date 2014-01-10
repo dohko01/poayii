@@ -14,13 +14,10 @@
  * @property integer $id_actividad_institucional
  * @property integer $id_sub_subfuncion
  * @property integer $id_programa_especial
- * @property integer $id_programa_sectorial
- * @property integer $id_unidad
- * @property integer $id_programa_presupuestario
  * @property integer $id_proyecto_estrategico
- * @property integer $id_politica_publica
  * @property integer $id_proyecto_tipo
  * @property integer $id_tipo_accion
+ * @property integer $id_caratula_poa
  */
 class ProyectoInstitucional extends CActiveRecord
 {
@@ -40,11 +37,11 @@ class ProyectoInstitucional extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('numero_proyecto_estrategico, id_actividad_institucional, id_sub_subfuncion, id_programa_especial, id_programa_sectorial, id_unidad, id_programa_presupuestario, id_proyecto_estrategico, id_politica_publica, id_proyecto_tipo, id_tipo_accion', 'numerical', 'integerOnly'=>true),
+			array('numero_proyecto_estrategico, id_actividad_institucional, id_sub_subfuncion, id_programa_especial, id_proyecto_estrategico, id_proyecto_tipo, id_tipo_accion, id_caratula_poa', 'numerical', 'integerOnly'=>true),
 			array('nombre_tecnico, lider_proyecto, jefe_inmediato, jefe_planeacion, coordinador_grupo_estrategico', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_proyecto_institucional, nombre_tecnico, numero_proyecto_estrategico, lider_proyecto, jefe_inmediato, jefe_planeacion, coordinador_grupo_estrategico, id_actividad_institucional, id_sub_subfuncion, id_programa_especial, id_programa_sectorial, id_unidad, id_programa_presupuestario, id_proyecto_estrategico, id_politica_publica, id_proyecto_tipo, id_tipo_accion', 'safe', 'on'=>'search'),
+			array('id_proyecto_institucional, nombre_tecnico, numero_proyecto_estrategico, lider_proyecto, jefe_inmediato, jefe_planeacion, coordinador_grupo_estrategico, id_actividad_institucional, id_sub_subfuncion, id_programa_especial, id_proyecto_estrategico, id_proyecto_tipo, id_tipo_accion, id_caratula_poa', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -75,13 +72,10 @@ class ProyectoInstitucional extends CActiveRecord
 			'id_actividad_institucional' => 'Id Actividad Institucional',
 			'id_sub_subfuncion' => 'Id Sub Subfuncion',
 			'id_programa_especial' => 'Id Programa Especial',
-			'id_programa_sectorial' => 'Id Programa Sectorial',
-			'id_unidad' => 'Id Unidad',
-			'id_programa_presupuestario' => 'Id Programa Presupuestario',
 			'id_proyecto_estrategico' => 'Id Proyecto Estrategico',
-			'id_politica_publica' => 'Id Politica Publica',
 			'id_proyecto_tipo' => 'Id Proyecto Tipo',
 			'id_tipo_accion' => 'Id Tipo Accion',
+			'id_caratula_poa' => 'Id Caratula Poa',
 		);
 	}
 
@@ -113,13 +107,10 @@ class ProyectoInstitucional extends CActiveRecord
 		$criteria->compare('id_actividad_institucional',$this->id_actividad_institucional);
 		$criteria->compare('id_sub_subfuncion',$this->id_sub_subfuncion);
 		$criteria->compare('id_programa_especial',$this->id_programa_especial);
-		$criteria->compare('id_programa_sectorial',$this->id_programa_sectorial);
-		$criteria->compare('id_unidad',$this->id_unidad);
-		$criteria->compare('id_programa_presupuestario',$this->id_programa_presupuestario);
 		$criteria->compare('id_proyecto_estrategico',$this->id_proyecto_estrategico);
-		$criteria->compare('id_politica_publica',$this->id_politica_publica);
 		$criteria->compare('id_proyecto_tipo',$this->id_proyecto_tipo);
 		$criteria->compare('id_tipo_accion',$this->id_tipo_accion);
+		$criteria->compare('id_caratula_poa',$this->id_caratula_poa);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

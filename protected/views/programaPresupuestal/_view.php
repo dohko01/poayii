@@ -54,22 +54,6 @@
 	<?php echo CHtml::encode($data->area_enfoque_potencial); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_programa_presupuestario')); ?>:</b>
-	<?php echo CHtml::encode($data->id_programa_presupuestario); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_unidad')); ?>:</b>
-	<?php echo CHtml::encode($data->id_unidad); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_politica_publica')); ?>:</b>
-	<?php echo CHtml::encode($data->id_politica_publica); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_programa_sectorial')); ?>:</b>
-	<?php echo CHtml::encode($data->id_programa_sectorial); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_objetivo_pnd')); ?>:</b>
 	<?php echo CHtml::encode($data->id_objetivo_pnd); ?>
 	<br />
@@ -80,6 +64,10 @@
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_modalidad')); ?>:</b>
 	<?php echo CHtml::encode($data->id_modalidad); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_caratula_poa')); ?>:</b>
+	<?php echo CHtml::encode($data->id_caratula_poa); ?>
 	<br />
 
 	*/ ?>

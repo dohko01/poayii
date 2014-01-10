@@ -67,26 +67,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_programa_presupuestario'); ?>
-		<?php echo $form->textField($model,'id_programa_presupuestario'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'id_unidad'); ?>
-		<?php echo $form->textField($model,'id_unidad'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'id_politica_publica'); ?>
-		<?php echo $form->textField($model,'id_politica_publica'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'id_programa_sectorial'); ?>
-		<?php echo $form->textField($model,'id_programa_sectorial'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'id_objetivo_pnd'); ?>
 		<?php echo $form->textField($model,'id_objetivo_pnd'); ?>
 	</div>
@@ -99,6 +79,11 @@
 	<div class="row">
 		<?php echo $form->label($model,'id_modalidad'); ?>
 		<?php echo $form->textField($model,'id_modalidad'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'id_caratula_poa'); ?>
+		<?php echo $form->textField($model,'id_caratula_poa'); ?>
 	</div>
 
 	<div class="row buttons">

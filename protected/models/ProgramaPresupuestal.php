@@ -16,13 +16,10 @@
  * @property string $area_enfoque_objetivo
  * @property double $cuantificacion_area_enfoque_objetivo
  * @property string $area_enfoque_potencial
- * @property integer $id_programa_presupuestario
- * @property integer $id_unidad
- * @property integer $id_politica_publica
- * @property integer $id_programa_sectorial
  * @property integer $id_objetivo_pnd
  * @property integer $id_objetivo_milenio
  * @property integer $id_modalidad
+ * @property integer $id_caratula_poa
  */
 class ProgramaPresupuestal extends CActiveRecord
 {
@@ -42,13 +39,13 @@ class ProgramaPresupuestal extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('anio_inicio, anio_termino, id_programa_presupuestario, id_unidad, id_politica_publica, id_programa_sectorial, id_objetivo_pnd, id_objetivo_milenio, id_modalidad', 'numerical', 'integerOnly'=>true),
+			array('anio_inicio, anio_termino, id_objetivo_pnd, id_objetivo_milenio, id_modalidad, id_caratula_poa', 'numerical', 'integerOnly'=>true),
 			array('cuantificacion_area_enfoque_potencial, cuantificacion_area_enfoque_objetivo', 'numerical'),
 			array('nombre_responsable_unidad, email_responsable_unidad, telefono_responsable_unidad', 'length', 'max'=>255),
 			array('resultados_esperados, justificacion, area_enfoque_objetivo, area_enfoque_potencial', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_programa_presupuestal, nombre_responsable_unidad, email_responsable_unidad, telefono_responsable_unidad, anio_inicio, anio_termino, resultados_esperados, justificacion, cuantificacion_area_enfoque_potencial, area_enfoque_objetivo, cuantificacion_area_enfoque_objetivo, area_enfoque_potencial, id_programa_presupuestario, id_unidad, id_politica_publica, id_programa_sectorial, id_objetivo_pnd, id_objetivo_milenio, id_modalidad', 'safe', 'on'=>'search'),
+			array('id_programa_presupuestal, nombre_responsable_unidad, email_responsable_unidad, telefono_responsable_unidad, anio_inicio, anio_termino, resultados_esperados, justificacion, cuantificacion_area_enfoque_potencial, area_enfoque_objetivo, cuantificacion_area_enfoque_objetivo, area_enfoque_potencial, id_objetivo_pnd, id_objetivo_milenio, id_modalidad, id_caratula_poa', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -81,13 +78,10 @@ class ProgramaPresupuestal extends CActiveRecord
 			'area_enfoque_objetivo' => 'Area Enfoque Objetivo',
 			'cuantificacion_area_enfoque_objetivo' => 'Cuantificacion Area Enfoque Objetivo',
 			'area_enfoque_potencial' => 'Area Enfoque Potencial',
-			'id_programa_presupuestario' => 'Id Programa Presupuestario',
-			'id_unidad' => 'Id Unidad',
-			'id_politica_publica' => 'Id Politica Publica',
-			'id_programa_sectorial' => 'Id Programa Sectorial',
 			'id_objetivo_pnd' => 'Id Objetivo Pnd',
 			'id_objetivo_milenio' => 'Id Objetivo Milenio',
 			'id_modalidad' => 'Id Modalidad',
+			'id_caratula_poa' => 'Id Caratula Poa',
 		);
 	}
 
@@ -121,13 +115,10 @@ class ProgramaPresupuestal extends CActiveRecord
 		$criteria->compare('area_enfoque_objetivo',$this->area_enfoque_objetivo,true);
 		$criteria->compare('cuantificacion_area_enfoque_objetivo',$this->cuantificacion_area_enfoque_objetivo);
 		$criteria->compare('area_enfoque_potencial',$this->area_enfoque_potencial,true);
-		$criteria->compare('id_programa_presupuestario',$this->id_programa_presupuestario);
-		$criteria->compare('id_unidad',$this->id_unidad);
-		$criteria->compare('id_politica_publica',$this->id_politica_publica);
-		$criteria->compare('id_programa_sectorial',$this->id_programa_sectorial);
 		$criteria->compare('id_objetivo_pnd',$this->id_objetivo_pnd);
 		$criteria->compare('id_objetivo_milenio',$this->id_objetivo_milenio);
 		$criteria->compare('id_modalidad',$this->id_modalidad);
+		$criteria->compare('id_caratula_poa',$this->id_caratula_poa);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
