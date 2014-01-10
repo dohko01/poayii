@@ -1,6 +1,6 @@
 <?php
 
-class ObjetivoController extends Controller
+class TipoUsuarioController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -13,14 +13,14 @@ class ObjetivoController extends Controller
 	 *
 	 * @var string
 	 */
-	public $title_sin = 'Objetivo';
+	public $title_sin = 'TipoUsuario';
 
 	/**
 	 * Titulo plural para breadcrumb y encabezado
 	 *     
 	 * @var string 
 	 */
-	public $title_plu = 'Objetivo';
+	public $title_plu = 'TipoUsuario';
 
 	/**
 	 * @return array action filters
@@ -80,16 +80,16 @@ class ObjetivoController extends Controller
 	{
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Crear';
         
-		$model=new Objetivo;
+		$model=new TipoUsuario;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Objetivo']))
+		if(isset($_POST['TipoUsuario']))
 		{
-			$model->attributes=$_POST['Objetivo'];
+			$model->attributes=$_POST['TipoUsuario'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_objetivo));
+				$this->redirect(array('view','id'=>$model->id_tipo_usuario));
 		}
 
 		$this->render('create',array(
@@ -111,11 +111,11 @@ class ObjetivoController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Objetivo']))
+		if(isset($_POST['TipoUsuario']))
 		{
-			$model->attributes=$_POST['Objetivo'];
+			$model->attributes=$_POST['TipoUsuario'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_objetivo));
+				$this->redirect(array('view','id'=>$model->id_tipo_usuario));
 		}
 
 		$this->render('update',array(
@@ -146,7 +146,7 @@ class ObjetivoController extends Controller
 	{
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Inicio';
         
-		$dataProvider=new CActiveDataProvider('Objetivo');
+		$dataProvider=new CActiveDataProvider('TipoUsuario');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -159,10 +159,10 @@ class ObjetivoController extends Controller
 	{
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Administración';
         
-		$model=new Objetivo('search');
+		$model=new TipoUsuario('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Objetivo']))
-			$model->attributes=$_GET['Objetivo'];
+		if(isset($_GET['TipoUsuario']))
+			$model->attributes=$_GET['TipoUsuario'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -173,12 +173,12 @@ class ObjetivoController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Objetivo the loaded model
+	 * @return TipoUsuario the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Objetivo::model()->findByPk($id);
+		$model=TipoUsuario::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'La pagina solicitada no existe.');
 		return $model;
@@ -186,11 +186,11 @@ class ObjetivoController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Objetivo $model the model to be validated
+	 * @param TipoUsuario $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='objetivo-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='tipo-usuario-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

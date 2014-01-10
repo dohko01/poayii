@@ -93,5 +93,6 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
+                'permiso_acceso'=>'$user->id != 0 && $user->tipoUsuario == 1',
 	),
 );
