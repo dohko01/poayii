@@ -7,6 +7,11 @@
  * @property integer $id_politica_publica
  * @property string $nombre
  * @property integer $id_tema
+ * @property string $clave
+ *
+ * The followings are the available model relations:
+ * @property TblCaratulaPoa[] $tblCaratulaPoas
+ * @property TblcTema $idTema
  */
 class PoliticaPublica extends CActiveRecord
 {
@@ -28,9 +33,10 @@ class PoliticaPublica extends CActiveRecord
 		return array(
 			array('id_tema', 'numerical', 'integerOnly'=>true),
 			array('nombre', 'length', 'max'=>255),
+			array('clave', 'length', 'max'=>5),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_politica_publica, nombre, id_tema', 'safe', 'on'=>'search'),
+			array('id_politica_publica, nombre, id_tema, clave', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -42,6 +48,8 @@ class PoliticaPublica extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblCaratulaPoas' => array(self::HAS_MANY, 'TblCaratulaPoa', 'id_politica_publica'),
+			'idTema' => array(self::BELONGS_TO, 'TblcTema', 'id_tema'),
 		);
 	}
 
@@ -54,6 +62,7 @@ class PoliticaPublica extends CActiveRecord
 			'id_politica_publica' => 'Id Politica Publica',
 			'nombre' => 'Nombre',
 			'id_tema' => 'Id Tema',
+			'clave' => 'Clave',
 		);
 	}
 
@@ -78,6 +87,7 @@ class PoliticaPublica extends CActiveRecord
 		$criteria->compare('id_politica_publica',$this->id_politica_publica);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('id_tema',$this->id_tema);
+		$criteria->compare('clave',$this->clave,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -7,6 +7,9 @@
  * @property integer $id_entidad
  * @property string $clave
  * @property string $nombre
+ *
+ * The followings are the available model relations:
+ * @property TblcEntePublico[] $tblcEntePublicos
  */
 class Entidad extends CActiveRecord
 {
@@ -26,6 +29,7 @@ class Entidad extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+                        array('clave', 'length', 'max'=>10),
 			array('clave', 'length', 'max'=>10),
 			array('nombre', 'length', 'max'=>255),
 			// The following rule is used by search().
@@ -42,6 +46,7 @@ class Entidad extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblcEntePublicos' => array(self::HAS_MANY, 'TblcEntePublico', 'id_entidad'),
 		);
 	}
 

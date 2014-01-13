@@ -7,6 +7,9 @@
  * @property integer $id_programa_presupuestario
  * @property string $clave
  * @property string $nombre
+ *
+ * The followings are the available model relations:
+ * @property TblCaratulaPoa[] $tblCaratulaPoas
  */
 class ProgramaPresupuestario extends CActiveRecord
 {
@@ -26,6 +29,7 @@ class ProgramaPresupuestario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+                        array('id_programa_presupuestario', 'length', 'max'=>10),
 			array('clave', 'length', 'max'=>10),
 			array('nombre', 'length', 'max'=>255),
 			// The following rule is used by search().
@@ -42,6 +46,7 @@ class ProgramaPresupuestario extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblCaratulaPoas' => array(self::HAS_MANY, 'TblCaratulaPoa', 'id_programa_presupuestario'),
 		);
 	}
 

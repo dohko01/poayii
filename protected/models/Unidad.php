@@ -5,8 +5,13 @@
  *
  * The followings are the available columns in table 'tblc_unidad':
  * @property integer $id_unidad
- * @property integer $nombre
  * @property integer $id_ente_publico
+ * @property string $nombre
+ *
+ * The followings are the available model relations:
+ * @property TblCaratulaPoa[] $tblCaratulaPoas
+ * @property TblcEntePublico $idEntePublico
+ * @property TblcUnidadResponsable[] $tblcUnidadResponsables
  */
 class Unidad extends CActiveRecord
 {
@@ -26,10 +31,11 @@ class Unidad extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre, id_ente_publico', 'numerical', 'integerOnly'=>true),
+			array('id_ente_publico,id_unidad', 'numerical', 'integerOnly'=>true),
+			array('nombre', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_unidad, nombre, id_ente_publico', 'safe', 'on'=>'search'),
+			array('id_unidad, id_ente_publico, nombre', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -41,6 +47,9 @@ class Unidad extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblCaratulaPoas' => array(self::HAS_MANY, 'TblCaratulaPoa', 'id_unidad'),
+			'idEntePublico' => array(self::BELONGS_TO, 'TblcEntePublico', 'id_ente_publico'),
+			'tblcUnidadResponsables' => array(self::HAS_MANY, 'TblcUnidadResponsable', 'id_unidad'),
 		);
 	}
 
@@ -51,8 +60,8 @@ class Unidad extends CActiveRecord
 	{
 		return array(
 			'id_unidad' => 'Id Unidad',
-			'nombre' => 'Nombre',
 			'id_ente_publico' => 'Id Ente Publico',
+			'nombre' => 'Nombre',
 		);
 	}
 
@@ -75,8 +84,8 @@ class Unidad extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_unidad',$this->id_unidad);
-		$criteria->compare('nombre',$this->nombre);
 		$criteria->compare('id_ente_publico',$this->id_ente_publico);
+		$criteria->compare('nombre',$this->nombre,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

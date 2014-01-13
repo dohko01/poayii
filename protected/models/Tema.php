@@ -7,6 +7,11 @@
  * @property integer $id_tema
  * @property string $nombre
  * @property integer $id_eje
+ * @property string $clave
+ *
+ * The followings are the available model relations:
+ * @property TblcEje $idEje
+ * @property TblcPoliticaPublica[] $tblcPoliticaPublicas
  */
 class Tema extends CActiveRecord
 {
@@ -28,9 +33,10 @@ class Tema extends CActiveRecord
 		return array(
 			array('id_eje', 'numerical', 'integerOnly'=>true),
 			array('nombre', 'length', 'max'=>255),
+			array('clave', 'length', 'max'=>5),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_tema, nombre, id_eje', 'safe', 'on'=>'search'),
+			array('id_tema, nombre, id_eje, clave', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -42,6 +48,8 @@ class Tema extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'idEje' => array(self::BELONGS_TO, 'TblcEje', 'id_eje'),
+			'tblcPoliticaPublicas' => array(self::HAS_MANY, 'TblcPoliticaPublica', 'id_tema'),
 		);
 	}
 
@@ -54,6 +62,7 @@ class Tema extends CActiveRecord
 			'id_tema' => 'Id Tema',
 			'nombre' => 'Nombre',
 			'id_eje' => 'Id Eje',
+			'clave' => 'Clave',
 		);
 	}
 
@@ -78,6 +87,7 @@ class Tema extends CActiveRecord
 		$criteria->compare('id_tema',$this->id_tema);
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('id_eje',$this->id_eje);
+		$criteria->compare('clave',$this->clave,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

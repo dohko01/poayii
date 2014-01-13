@@ -10,6 +10,15 @@
  * @property integer $id_politica_publica
  * @property integer $id_programa_sectorial
  * @property integer $id_usuario
+ *
+ * The followings are the available model relations:
+ * @property TblcProgramaPresupuestario $idProgramaPresupuestario
+ * @property TblcUnidad $idUnidad
+ * @property TblcPoliticaPublica $idPoliticaPublica
+ * @property TblcProgramaSectorial $idProgramaSectorial
+ * @property TblUsuario $idUsuario
+ * @property TblProgramaPresupuestal[] $tblProgramaPresupuestals
+ * @property TblProyectoInstitucional[] $tblProyectoInstitucionals
  */
 class CaratulaPoa extends CActiveRecord
 {
@@ -30,6 +39,10 @@ class CaratulaPoa extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('id_programa_presupuestario, id_unidad, id_politica_publica, id_programa_sectorial, id_usuario', 'numerical', 'integerOnly'=>true),
+                        array('id_programa_presupuestario','required', 'message'=>'Seleccionar un programa presupuestario'),
+                        array('id_programa_sectorial','required', 'message'=>'Seleccionar un programa sectorial'),
+                        array('id_unidad','required', 'message'=>'Seleccionar una Entidad, Ente publico y Unidad'),
+                        array('id_politica_publica','required', 'message'=>'Seleccionar un Eje, Tema y Politica Publica'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id_caratula_poa, id_programa_presupuestario, id_unidad, id_politica_publica, id_programa_sectorial, id_usuario', 'safe', 'on'=>'search'),
@@ -44,6 +57,13 @@ class CaratulaPoa extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'idProgramaPresupuestario' => array(self::BELONGS_TO, 'TblcProgramaPresupuestario', 'id_programa_presupuestario'),
+			'idUnidad' => array(self::BELONGS_TO, 'TblcUnidad', 'id_unidad'),
+			'idPoliticaPublica' => array(self::BELONGS_TO, 'TblcPoliticaPublica', 'id_politica_publica'),
+			'idProgramaSectorial' => array(self::BELONGS_TO, 'TblcProgramaSectorial', 'id_programa_sectorial'),
+			'idUsuario' => array(self::BELONGS_TO, 'TblUsuario', 'id_usuario'),
+			'tblProgramaPresupuestals' => array(self::HAS_MANY, 'TblProgramaPresupuestal', 'id_caratula_poa'),
+			'tblProyectoInstitucionals' => array(self::HAS_MANY, 'TblProyectoInstitucional', 'id_caratula_poa'),
 		);
 	}
 
@@ -53,12 +73,12 @@ class CaratulaPoa extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_caratula_poa' => 'Id Caratula Poa',
-			'id_programa_presupuestario' => 'Id Programa Presupuestario',
-			'id_unidad' => 'Id Unidad',
-			'id_politica_publica' => 'Id Politica Publica',
-			'id_programa_sectorial' => 'Id Programa Sectorial',
-			'id_usuario' => 'Id Usuario',
+			'id_caratula_poa' => 'Caratula Poa',
+			'id_programa_presupuestario' => 'Programa Presupuestario',
+			'id_unidad' => 'Unidad',
+			'id_politica_publica' => 'Politica Publica',
+			'id_programa_sectorial' => 'Programa Sectorial',
+			'id_usuario' => 'Usuario',
 		);
 	}
 
