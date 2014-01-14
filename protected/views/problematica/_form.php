@@ -20,6 +20,61 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
+            <table>
+                <tr>
+                    <td>
+                        <table>
+                            <thead>
+                                <tr><th>Causas</th></tr>
+                            </thead>
+                            <tbody id="tblCausas">
+                                <tr><td><?php echo CHtml::textField('causas[]','',array('size'=>'50')); ?></td></tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>
+                                    <?php
+                                        $this->widget('zii.widgets.jui.CJuiButton',array(
+                                            'buttonType'=>'link',
+                                            'name'=>'addCausa',
+                                            'url'=>'#',
+                                            'caption'=>'+',
+                                            )
+                                        );
+                                    ?>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <thead>
+                                <tr><th>Efectos</th></tr>
+                            </thead>
+                            <tbody id="tblEfectos">
+                                <tr><td><?php echo CHtml::textField('efectos[]','',array('size'=>'50')); ?></td></tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>
+                                    <?php
+                                        $this->widget('zii.widgets.jui.CJuiButton',array(
+                                            'buttonType'=>'link',
+                                            'name'=>'addEfecto',
+                                            'url'=>'#',
+                                            'caption'=>'+',
+                                            )
+                                        );
+                                    ?>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <?php /*
 		<?php echo $form->labelEx($model,'descripcion'); ?>
 		<?php echo $form->textArea($model,'descripcion',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
@@ -29,13 +84,15 @@
 		<?php echo $form->labelEx($model,'tipo'); ?>
 		<?php echo $form->textField($model,'tipo'); ?>
 		<?php echo $form->error($model,'tipo'); ?>
-	</div>
+	</div>*/?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_arbol_problematica'); ?>
-		<?php echo $form->textField($model,'id_arbol_problematica'); ?>
-		<?php echo $form->error($model,'id_arbol_problematica'); ?>
-	</div>
+        <?php
+            if(empty($arbolProblema)){
+                echo $form->hiddenField($model,'id_arbol_problematica');
+            }else{
+                echo $form->hiddenField($model,'id_arbol_problematica',array('value'=>$arbolProblema->id_arbol_problematica));
+            }
+        ?>
 
 	<div class="row buttons">
 		<?php 

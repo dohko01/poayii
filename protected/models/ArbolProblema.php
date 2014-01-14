@@ -7,6 +7,10 @@
  * @property integer $id_arbol_problematica
  * @property string $definicion_problematica
  * @property integer $id_programa_presupuestal
+ *
+ * The followings are the available model relations:
+ * @property TblProblematica[] $tblProblematicas
+ * @property TblProgramaPresupuestal $idProgramaPresupuestal
  */
 class ArbolProblema extends CActiveRecord
 {
@@ -42,6 +46,8 @@ class ArbolProblema extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblProblematicas' => array(self::HAS_MANY, 'TblProblematica', 'id_arbol_problematica'),
+			'idProgramaPresupuestal' => array(self::BELONGS_TO, 'TblProgramaPresupuestal', 'id_programa_presupuestal'),
 		);
 	}
 

@@ -47,12 +47,10 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 		'nombre_responsable_unidad',
 		'email_responsable_unidad',
 		'telefono_responsable_unidad',
-		'anio_inicio',
-		'anio_termino',
 		'resultados_esperados',
-		/*
 		'justificacion',
 		'cuantificacion_area_enfoque_potencial',
+		/*
 		'area_enfoque_objetivo',
 		'cuantificacion_area_enfoque_objetivo',
 		'area_enfoque_potencial',
@@ -60,6 +58,8 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 		'id_objetivo_milenio',
 		'id_modalidad',
 		'id_caratula_poa',
+		'anio_inicio',
+		'anio_termino',
 		*/
 		array(
 			'class'=>'CButtonColumn',

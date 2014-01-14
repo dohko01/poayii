@@ -89,11 +89,12 @@ class ArbolProblemaController extends Controller
 		{
 			$model->attributes=$_POST['ArbolProblema'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_arbol_problematica));
+				$this->redirect(array('Problematica/create','id_arbol_problema'=>$model->id_arbol_problematica));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'id_programa_presupuestal'=>$_GET['id_programa_presupuestal'],
 		));
 	}
 

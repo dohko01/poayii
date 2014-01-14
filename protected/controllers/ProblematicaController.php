@@ -81,19 +81,31 @@ class ProblematicaController extends Controller
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Crear';
         
 		$model=new Problematica;
+                
+                $arbolProblema = array();
+                
+                if(isset($_GET['id_arbol_problema']))
+                {
+                    $arbolProblema = ArbolProblema::model()->findByAttributes(array('id_arbol_problematica' => $_GET['id_arbol_problema']));
+                }
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Problematica']))
 		{
-			$model->attributes=$_POST['Problematica'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_problematica));
+                    print_r($_POST);
+                        if(!empty($_POST['causas']))
+                        {
+                            $model->insertCausas($_POST);
+                        }//exit(0);
+//			if($model->save())
+//				$this->redirect(array('view','id'=>$model->id_problematica));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'arbolProblema'=>$arbolProblema,
 		));
 	}
 

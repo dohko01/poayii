@@ -13,6 +13,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Crear nuevo <?php echo $this->title_sin; ?></h1>
+<h1>Crear nuevo <?php echo $this->title_sin;?></h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('model'=>$model,'id_programa_presupuestal'=>$id_programa_presupuestal)); ?>

@@ -24,8 +24,6 @@ $this->menu=array(
 		'nombre_responsable_unidad',
 		'email_responsable_unidad',
 		'telefono_responsable_unidad',
-		'anio_inicio',
-		'anio_termino',
 		'resultados_esperados',
 		'justificacion',
 		'cuantificacion_area_enfoque_potencial',
@@ -36,5 +34,17 @@ $this->menu=array(
 		'id_objetivo_milenio',
 		'id_modalidad',
 		'id_caratula_poa',
+		'anio_inicio',
+		'anio_termino',
 	),
-)); ?>
+));
+
+        $this->widget('zii.widgets.jui.CJuiButton',array(
+            'buttonType'=>'link',
+            'name'=>'btnArbolProblema',
+            'value'=>$model->id_programa_presupuestal,
+            'url'=>Yii::app()->createUrl('arbolProblema/create',array('id_programa_presupuestal'=>$model->id_programa_presupuestal)),
+            'caption'=>'Capturar Arbol de Problema',
+            )
+        );
+?>

@@ -106,7 +106,7 @@ class ProgramaPresupuestalController extends Controller
                     $unidadResponsable['entePublico'] = $entePublico->nombre;
                     $unidadResponsable['entidad'] = $entidad->nombre;
                     
-                    //$datosCaratulaPoa = $caratula;
+                    $datosCaratulaPoa = $caratula;
                 }
 
 		// Uncomment the following line if AJAX validation is needed

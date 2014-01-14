@@ -84,21 +84,21 @@
         <div class="row">
                 <?php $list = CHtml::listData(ObjetivoPnd::model()->findAll(),'id_objetivo_pnd','descripcion');?>
 		<?php echo $form->labelEx($model,'id_objetivo_pnd'); ?>
-		<?php echo $form->dropDownList($model,'id_objetivo_pnd',$list); ?>
+		<?php echo $form->dropDownList($model,'id_objetivo_pnd',$list,array('empty'=>'Seleccionar...')); ?>
 		<?php echo $form->error($model,'id_objetivo_pnd'); ?>
 	</div>
 
 	<div class="row">
                 <?php $list = CHtml::listData(ObjetivosMilenio::model()->findAll(),'id_objetivo_milenio','nombre');?>
 		<?php echo $form->labelEx($model,'id_objetivo_milenio'); ?>
-		<?php echo $form->dropDownList($model,'id_objetivo_milenio',$list); ?>
+		<?php echo $form->dropDownList($model,'id_objetivo_milenio',$list,array('empty'=>'Seleccionar...')); ?>
 		<?php echo $form->error($model,'id_objetivo_milenio'); ?>
 	</div>
 
 	<div class="row">
                 <?php $list = CHtml::listData(Modalidad::model()->findAll(),'id_modalidad','nombre');?>
 		<?php echo $form->labelEx($model,'id_modalidad'); ?>
-		<?php echo $form->dropDownList($model,'id_modalidad',$list); ?>
+		<?php echo $form->dropDownList($model,'id_modalidad',$list,array('empty'=>'Seleccionar...')); ?>
 		<?php echo $form->error($model,'id_modalidad'); ?>
 	</div>
 
@@ -149,6 +149,15 @@
 		<?php echo $form->textArea($model,'area_enfoque_potencial',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'area_enfoque_potencial'); ?>
 	</div>
+        
+        <?php
+            if(isset($datosCaratulaPoa)){
+                echo $form->hiddenField($model,'id_caratula_poa', array('value'=>$datosCaratulaPoa->id_caratula_poa));
+            }
+            else{
+                echo $form->hiddenField($model,'id_caratula_poa');
+            }
+       ?>
 
 <?php /*
 	<div class="row">
@@ -158,7 +167,7 @@
 	</div>
 */?>
 	<div class="row buttons">
-		<?php 
+	<?php 
         $this->widget('zii.widgets.jui.CJuiButton',array(
             'buttonType'=>'submit',
             'name'=>'btnEnviarForm',

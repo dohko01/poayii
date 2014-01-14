@@ -27,16 +27,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'anio_inicio'); ?>
-		<?php echo $form->textField($model,'anio_inicio'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'anio_termino'); ?>
-		<?php echo $form->textField($model,'anio_termino'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'resultados_esperados'); ?>
 		<?php echo $form->textArea($model,'resultados_esperados',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
@@ -84,6 +74,16 @@
 	<div class="row">
 		<?php echo $form->label($model,'id_caratula_poa'); ?>
 		<?php echo $form->textField($model,'id_caratula_poa'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'anio_inicio'); ?>
+		<?php echo $form->textField($model,'anio_inicio'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'anio_termino'); ?>
+		<?php echo $form->textField($model,'anio_termino'); ?>
 	</div>
 
 	<div class="row buttons">

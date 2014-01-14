@@ -21,19 +21,10 @@
 	<?php echo CHtml::encode($data->telefono_responsable_unidad); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('anio_inicio')); ?>:</b>
-	<?php echo CHtml::encode($data->anio_inicio); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('anio_termino')); ?>:</b>
-	<?php echo CHtml::encode($data->anio_termino); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('resultados_esperados')); ?>:</b>
 	<?php echo CHtml::encode($data->resultados_esperados); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('justificacion')); ?>:</b>
 	<?php echo CHtml::encode($data->justificacion); ?>
 	<br />
@@ -42,6 +33,7 @@
 	<?php echo CHtml::encode($data->cuantificacion_area_enfoque_potencial); ?>
 	<br />
 
+	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('area_enfoque_objetivo')); ?>:</b>
 	<?php echo CHtml::encode($data->area_enfoque_objetivo); ?>
 	<br />
@@ -68,6 +60,14 @@
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_caratula_poa')); ?>:</b>
 	<?php echo CHtml::encode($data->id_caratula_poa); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('anio_inicio')); ?>:</b>
+	<?php echo CHtml::encode($data->anio_inicio); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('anio_termino')); ?>:</b>
+	<?php echo CHtml::encode($data->anio_termino); ?>
 	<br />
 
 	*/ ?>

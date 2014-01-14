@@ -8,8 +8,6 @@
  * @property string $nombre_responsable_unidad
  * @property string $email_responsable_unidad
  * @property string $telefono_responsable_unidad
- * @property integer $anio_inicio
- * @property integer $anio_termino
  * @property string $resultados_esperados
  * @property string $justificacion
  * @property double $cuantificacion_area_enfoque_potencial
@@ -20,6 +18,17 @@
  * @property integer $id_objetivo_milenio
  * @property integer $id_modalidad
  * @property integer $id_caratula_poa
+ * @property string $anio_inicio
+ * @property string $anio_termino
+ *
+ * The followings are the available model relations:
+ * @property TblCaratulaPoa $idCaratulaPoa
+ * @property TblcModalidad $idModalidad
+ * @property TblcObjetivoPnd $idObjetivoPnd
+ * @property TblcObjetivosMilenio $idObjetivoMilenio
+ * @property TblObjetivoIndicador[] $tblObjetivoIndicadors
+ * @property TblArbolObjetivo[] $tblArbolObjetivos
+ * @property TblArbolProblema[] $tblArbolProblemas
  */
 class ProgramaPresupuestal extends CActiveRecord
 {
@@ -39,13 +48,13 @@ class ProgramaPresupuestal extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('anio_inicio, anio_termino, id_objetivo_pnd, id_objetivo_milenio, id_modalidad, id_caratula_poa', 'numerical', 'integerOnly'=>true),
+			array('id_objetivo_pnd, id_objetivo_milenio, id_modalidad, id_caratula_poa', 'numerical', 'integerOnly'=>true),
 			array('cuantificacion_area_enfoque_potencial, cuantificacion_area_enfoque_objetivo', 'numerical'),
 			array('nombre_responsable_unidad, email_responsable_unidad, telefono_responsable_unidad', 'length', 'max'=>255),
-			array('resultados_esperados, justificacion, area_enfoque_objetivo, area_enfoque_potencial', 'safe'),
+			array('resultados_esperados, justificacion, area_enfoque_objetivo, area_enfoque_potencial, anio_inicio, anio_termino', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_programa_presupuestal, nombre_responsable_unidad, email_responsable_unidad, telefono_responsable_unidad, anio_inicio, anio_termino, resultados_esperados, justificacion, cuantificacion_area_enfoque_potencial, area_enfoque_objetivo, cuantificacion_area_enfoque_objetivo, area_enfoque_potencial, id_objetivo_pnd, id_objetivo_milenio, id_modalidad, id_caratula_poa', 'safe', 'on'=>'search'),
+			array('id_programa_presupuestal, nombre_responsable_unidad, email_responsable_unidad, telefono_responsable_unidad, resultados_esperados, justificacion, cuantificacion_area_enfoque_potencial, area_enfoque_objetivo, cuantificacion_area_enfoque_objetivo, area_enfoque_potencial, id_objetivo_pnd, id_objetivo_milenio, id_modalidad, id_caratula_poa, anio_inicio, anio_termino', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -57,6 +66,13 @@ class ProgramaPresupuestal extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'idCaratulaPoa' => array(self::BELONGS_TO, 'TblCaratulaPoa', 'id_caratula_poa'),
+			'idModalidad' => array(self::BELONGS_TO, 'TblcModalidad', 'id_modalidad'),
+			'idObjetivoPnd' => array(self::BELONGS_TO, 'TblcObjetivoPnd', 'id_objetivo_pnd'),
+			'idObjetivoMilenio' => array(self::BELONGS_TO, 'TblcObjetivosMilenio', 'id_objetivo_milenio'),
+			'tblObjetivoIndicadors' => array(self::HAS_MANY, 'TblObjetivoIndicador', 'id_programa_presupuestal'),
+			'tblArbolObjetivos' => array(self::HAS_MANY, 'TblArbolObjetivo', 'id_programa_presupuestal'),
+			'tblArbolProblemas' => array(self::HAS_MANY, 'TblArbolProblema', 'id_programa_presupuestal'),
 		);
 	}
 
@@ -70,8 +86,6 @@ class ProgramaPresupuestal extends CActiveRecord
 			'nombre_responsable_unidad' => 'Nombre Responsable Unidad',
 			'email_responsable_unidad' => 'Email Responsable Unidad',
 			'telefono_responsable_unidad' => 'Telefono Responsable Unidad',
-			'anio_inicio' => 'Anio Inicio',
-			'anio_termino' => 'Anio Termino',
 			'resultados_esperados' => 'Resultados Esperados',
 			'justificacion' => 'Justificacion',
 			'cuantificacion_area_enfoque_potencial' => 'Cuantificacion Area Enfoque Potencial',
@@ -82,6 +96,8 @@ class ProgramaPresupuestal extends CActiveRecord
 			'id_objetivo_milenio' => 'Id Objetivo Milenio',
 			'id_modalidad' => 'Id Modalidad',
 			'id_caratula_poa' => 'Id Caratula Poa',
+			'anio_inicio' => 'Anio Inicio',
+			'anio_termino' => 'Anio Termino',
 		);
 	}
 
@@ -107,8 +123,6 @@ class ProgramaPresupuestal extends CActiveRecord
 		$criteria->compare('nombre_responsable_unidad',$this->nombre_responsable_unidad,true);
 		$criteria->compare('email_responsable_unidad',$this->email_responsable_unidad,true);
 		$criteria->compare('telefono_responsable_unidad',$this->telefono_responsable_unidad,true);
-		$criteria->compare('anio_inicio',$this->anio_inicio);
-		$criteria->compare('anio_termino',$this->anio_termino);
 		$criteria->compare('resultados_esperados',$this->resultados_esperados,true);
 		$criteria->compare('justificacion',$this->justificacion,true);
 		$criteria->compare('cuantificacion_area_enfoque_potencial',$this->cuantificacion_area_enfoque_potencial);
@@ -119,6 +133,8 @@ class ProgramaPresupuestal extends CActiveRecord
 		$criteria->compare('id_objetivo_milenio',$this->id_objetivo_milenio);
 		$criteria->compare('id_modalidad',$this->id_modalidad);
 		$criteria->compare('id_caratula_poa',$this->id_caratula_poa);
+		$criteria->compare('anio_inicio',$this->anio_inicio,true);
+		$criteria->compare('anio_termino',$this->anio_termino,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

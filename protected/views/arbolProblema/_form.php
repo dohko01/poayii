@@ -24,23 +24,31 @@
 		<?php echo $form->textArea($model,'definicion_problematica',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'definicion_problematica'); ?>
 	</div>
-
+        
+        <?php 
+            if(isset($id_programa_presupuestal)){
+                echo $form->hiddenField($model,'id_programa_presupuestal',array('value'=>$id_programa_presupuestal));
+            }else{
+                 echo $form->hiddenField($model,'id_programa_presupuestal');
+            }
+            ?>
+<?php/*
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_programa_presupuestal'); ?>
 		<?php echo $form->textField($model,'id_programa_presupuestal'); ?>
 		<?php echo $form->error($model,'id_programa_presupuestal'); ?>
 	</div>
-
+*/?>
 	<div class="row buttons">
 		<?php 
-        $this->widget('zii.widgets.jui.CJuiButton',array(
-            'buttonType'=>'submit',
-            'name'=>'btnEnviarForm',
-            'value'=>'1',
-            'caption'=>($model->isNewRecord ? 'Guardar' : 'Actualizar'),
-            )
-        );
-        ?>
+                $this->widget('zii.widgets.jui.CJuiButton',array(
+                    'buttonType'=>'submit',
+                    'name'=>'btnEnviarForm',
+                    'value'=>'1',
+                    'caption'=>($model->isNewRecord ? 'Siguiente' : 'Actualizar'),
+                    )
+                );
+                ?>
 	</div>
 
 <?php $this->endWidget(); ?>

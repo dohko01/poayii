@@ -8,6 +8,9 @@
  * @property string $descripcion
  * @property string $tipo
  * @property integer $id_arbol_problematica
+ *
+ * The followings are the available model relations:
+ * @property TblArbolProblema $idArbolProblematica
  */
 class Problematica extends CActiveRecord
 {
@@ -43,6 +46,7 @@ class Problematica extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'idArbolProblematica' => array(self::BELONGS_TO, 'TblArbolProblema', 'id_arbol_problematica'),
 		);
 	}
 
@@ -97,4 +101,33 @@ class Problematica extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public function insertCausas($values)
+        {
+            $models = array();
+            $valid = true;
+            
+            foreach($values['causas'] as $key => $causa)
+            {
+                $models[$key] = Problematica::model();
+            }
+
+            foreach($values['causas'] as $key2 => $causa)
+            {
+                $models[$key2] = new Problematica;
+                $models[$key2]->id_arbol_problematica = $values['Problematica']['id_arbol_problematica'];
+                $models[$key2]->descripcion = $causa;
+                $models[$key2]->tipo = 'causa';
+                $valid = $models[$key2]->validate() && $valid;
+            }
+
+            if($valid)
+            {
+                $ii = 0;
+                while(isset($models[$ii]))
+                {
+                    $models[$ii++]->save(false);
+                }
+            }
+        }
 }
