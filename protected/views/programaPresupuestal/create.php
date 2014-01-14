@@ -11,8 +11,9 @@ $this->menu=array(
 	array('label'=>'Listar '.$this->title_plu, 'url'=>array('index')),
 	array('label'=>'Administrar '.$this->title_plu, 'url'=>array('admin')),
 );
+
 ?>
 
-<h1>Crear nuevo <?php echo $this->title_sin; ?></h1>
+<h1>Crear nuevo <?php echo $this->title_sin;?></h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('model'=>$model,'planEstatalDesarrollo'=>$planEstatalDesarrollo,'unidadResponsable'=>$unidadResponsable)); ?>

@@ -13,14 +13,14 @@ class CaratulaPoaController extends Controller
 	 *
 	 * @var string
 	 */
-	public $title_sin = 'CaratulaPoa';
+	public $title_sin = 'Caratula POA';
 
 	/**
 	 * Titulo plural para breadcrumb y encabezado
 	 *     
 	 * @var string 
 	 */
-	public $title_plu = 'CaratulaPoa';
+	public $title_plu = 'Caratulas POA';
 
 	/**
 	 * @return array action filters

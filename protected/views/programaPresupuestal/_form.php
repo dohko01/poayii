@@ -18,23 +18,88 @@
 	<p class="note">Campos con <span class="required">*</span> son obligatorios.</p>
 
 	<?php echo $form->errorSummary($model); ?>
+        
+        <fieldset>
+            <legend>Plan Estatal de Desarrollo</legend>
+            
+            <div class="row">
+                    <?php echo $form->labelEx($model,'Eje'); ?>
+                    <?php echo CHtml::textField('nombre_responsable_unidad',$planEstatalDesarrollo['eje'],array('size'=>60,'maxlength'=>255)); ?>
+                    <?php //echo $form->error($model,'nombre_responsable_unidad'); ?>
+            </div>
+            
+            <div class="row">
+                    <?php echo $form->labelEx($model,'Tema'); ?>
+                    <?php echo CHtml::textField('nombre_responsable_unidad',$planEstatalDesarrollo['tema'],array('size'=>60,'maxlength'=>255)); ?>
+                    <?php //echo $form->error($model,'nombre_responsable_unidad'); ?>
+            </div>
+            
+            <div class="row">
+                    <?php echo $form->labelEx($model,'Politica Publica'); ?>
+                    <?php echo CHtml::textField('nombre_responsable_unidad',$planEstatalDesarrollo['politicaPublica'],array('size'=>60,'maxlength'=>255)); ?>
+                    <?php //echo $form->error($model,'nombre_responsable_unidad'); ?>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Unidad Responsable</legend>
+            
+            <div class="row">
+                    <?php echo $form->labelEx($model,'Entidad'); ?>
+                    <?php echo CHtml::textField('nombre_responsable_unidad',$unidadResponsable['entidad'],array('size'=>60,'maxlength'=>255)); ?>
+                    <?php //echo $form->error($model,'nombre_responsable_unidad'); ?>
+            </div>
+            
+            <div class="row">
+                    <?php echo $form->labelEx($model,'Ente Publico'); ?>
+                    <?php echo CHtml::textField('nombre_responsable_unidad',$unidadResponsable['entePublico'],array('size'=>60,'maxlength'=>255)); ?>
+                    <?php //echo $form->error($model,'nombre_responsable_unidad'); ?>
+            </div>
+            
+            <div class="row">
+                    <?php echo $form->labelEx($model,'Unidad'); ?>
+                    <?php echo CHtml::textField('nombre_responsable_unidad',$unidadResponsable['unidad'],array('size'=>60,'maxlength'=>255)); ?>
+                    <?php //echo $form->error($model,'nombre_responsable_unidad'); ?>
+            </div>
+            
+            <div class="row">
+                    <?php echo $form->labelEx($model,'nombre_responsable_unidad'); ?>
+                    <?php echo $form->textField($model,'nombre_responsable_unidad',array('size'=>60,'maxlength'=>255)); ?>
+                    <?php echo $form->error($model,'nombre_responsable_unidad'); ?>
+            </div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'nombre_responsable_unidad'); ?>
-		<?php echo $form->textField($model,'nombre_responsable_unidad',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'nombre_responsable_unidad'); ?>
+            <div class="row">
+                    <?php echo $form->labelEx($model,'email_responsable_unidad'); ?>
+                    <?php echo $form->textField($model,'email_responsable_unidad',array('size'=>60,'maxlength'=>255)); ?>
+                    <?php echo $form->error($model,'email_responsable_unidad'); ?>
+            </div>
+
+            <div class="row">
+                    <?php echo $form->labelEx($model,'telefono_responsable_unidad'); ?>
+                    <?php echo $form->textField($model,'telefono_responsable_unidad',array('size'=>60,'maxlength'=>255)); ?>
+                    <?php echo $form->error($model,'telefono_responsable_unidad'); ?>
+            </div>
+        </fieldset>
+        
+        <div class="row">
+                <?php $list = CHtml::listData(ObjetivoPnd::model()->findAll(),'id_objetivo_pnd','descripcion');?>
+		<?php echo $form->labelEx($model,'id_objetivo_pnd'); ?>
+		<?php echo $form->dropDownList($model,'id_objetivo_pnd',$list); ?>
+		<?php echo $form->error($model,'id_objetivo_pnd'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'email_responsable_unidad'); ?>
-		<?php echo $form->textField($model,'email_responsable_unidad',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'email_responsable_unidad'); ?>
+                <?php $list = CHtml::listData(ObjetivosMilenio::model()->findAll(),'id_objetivo_milenio','nombre');?>
+		<?php echo $form->labelEx($model,'id_objetivo_milenio'); ?>
+		<?php echo $form->dropDownList($model,'id_objetivo_milenio',$list); ?>
+		<?php echo $form->error($model,'id_objetivo_milenio'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'telefono_responsable_unidad'); ?>
-		<?php echo $form->textField($model,'telefono_responsable_unidad',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'telefono_responsable_unidad'); ?>
+                <?php $list = CHtml::listData(Modalidad::model()->findAll(),'id_modalidad','nombre');?>
+		<?php echo $form->labelEx($model,'id_modalidad'); ?>
+		<?php echo $form->dropDownList($model,'id_modalidad',$list); ?>
+		<?php echo $form->error($model,'id_modalidad'); ?>
 	</div>
 
 	<div class="row">
@@ -85,30 +150,13 @@
 		<?php echo $form->error($model,'area_enfoque_potencial'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_objetivo_pnd'); ?>
-		<?php echo $form->textField($model,'id_objetivo_pnd'); ?>
-		<?php echo $form->error($model,'id_objetivo_pnd'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_objetivo_milenio'); ?>
-		<?php echo $form->textField($model,'id_objetivo_milenio'); ?>
-		<?php echo $form->error($model,'id_objetivo_milenio'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_modalidad'); ?>
-		<?php echo $form->textField($model,'id_modalidad'); ?>
-		<?php echo $form->error($model,'id_modalidad'); ?>
-	</div>
-
+<?php /*
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_caratula_poa'); ?>
 		<?php echo $form->textField($model,'id_caratula_poa'); ?>
 		<?php echo $form->error($model,'id_caratula_poa'); ?>
 	</div>
-
+*/?>
 	<div class="row buttons">
 		<?php 
         $this->widget('zii.widgets.jui.CJuiButton',array(

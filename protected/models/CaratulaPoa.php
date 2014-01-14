@@ -57,13 +57,13 @@ class CaratulaPoa extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idProgramaPresupuestario' => array(self::BELONGS_TO, 'TblcProgramaPresupuestario', 'id_programa_presupuestario'),
-			'idUnidad' => array(self::BELONGS_TO, 'TblcUnidad', 'id_unidad'),
-			'idPoliticaPublica' => array(self::BELONGS_TO, 'TblcPoliticaPublica', 'id_politica_publica'),
-			'idProgramaSectorial' => array(self::BELONGS_TO, 'TblcProgramaSectorial', 'id_programa_sectorial'),
-			'idUsuario' => array(self::BELONGS_TO, 'TblUsuario', 'id_usuario'),
-			'tblProgramaPresupuestals' => array(self::HAS_MANY, 'TblProgramaPresupuestal', 'id_caratula_poa'),
-			'tblProyectoInstitucionals' => array(self::HAS_MANY, 'TblProyectoInstitucional', 'id_caratula_poa'),
+			'idProgramaPresupuestario' => array(self::BELONGS_TO, 'ProgramaPresupuestario', 'id_programa_presupuestario'),
+			'idUnidad' => array(self::BELONGS_TO, 'Unidad', 'id_unidad'),
+			'idPoliticaPublica' => array(self::BELONGS_TO, 'PoliticaPublica', 'id_politica_publica'),
+			'idProgramaSectorial' => array(self::BELONGS_TO, 'ProgramaSectorial', 'id_programa_sectorial'),
+			'idUsuario' => array(self::BELONGS_TO, 'Usuario', 'id_usuario'),
+			'tblProgramaPresupuestals' => array(self::HAS_MANY, 'ProgramaPresupuestal', 'id_caratula_poa'),
+			'tblProyectoInstitucionals' => array(self::HAS_MANY, 'ProyectoInstitucional', 'id_caratula_poa'),
 		);
 	}
 

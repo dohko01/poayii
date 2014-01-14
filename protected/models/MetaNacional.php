@@ -6,6 +6,9 @@
  * The followings are the available columns in table 'tblc_meta_nacional':
  * @property integer $id_meta_nacional
  * @property string $descripcion
+ *
+ * The followings are the available model relations:
+ * @property TblcObjetivoPnd[] $tblcObjetivoPnds
  */
 class MetaNacional extends CActiveRecord
 {
@@ -40,6 +43,7 @@ class MetaNacional extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblcObjetivoPnds' => array(self::HAS_MANY, 'TblcObjetivoPnd', 'id_meta_nacional'),
 		);
 	}
 

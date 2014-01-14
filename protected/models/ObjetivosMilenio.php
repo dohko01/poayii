@@ -6,6 +6,9 @@
  * The followings are the available columns in table 'tblc_objetivos_milenio':
  * @property integer $id_objetivo_milenio
  * @property string $nombre
+ *
+ * The followings are the available model relations:
+ * @property TblProgramaPresupuestal[] $tblProgramaPresupuestals
  */
 class ObjetivosMilenio extends CActiveRecord
 {
@@ -40,6 +43,7 @@ class ObjetivosMilenio extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblProgramaPresupuestals' => array(self::HAS_MANY, 'TblProgramaPresupuestal', 'id_objetivo_milenio'),
 		);
 	}
 

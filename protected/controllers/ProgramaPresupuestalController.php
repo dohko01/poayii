@@ -81,6 +81,33 @@ class ProgramaPresupuestalController extends Controller
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Crear';
         
 		$model=new ProgramaPresupuestal;
+                
+                $datosCaratulaPoa = array();
+                $planEstatalDesarrollo = array();
+                $unidadResponsable = array();
+                
+                if(isset($_GET['id_caratula_poa']))
+                {
+                    $caratula = CaratulaPoa::model()->findByAttributes(array('id_caratula_poa'=>$_GET['id_caratula_poa']));
+                    
+                    $politicaPublica = PoliticaPublica::model()->findByAttributes(array('id_politica_publica'=>$caratula->id_politica_publica));
+                    $tema = Tema::model()->findByAttributes(array('id_tema'=>$politicaPublica->id_tema));
+                    $eje = Eje::model()->findByAttributes(array('id_eje'=>$tema->id_eje));
+                    
+                    $planEstatalDesarrollo['politicaPublica'] = $politicaPublica->nombre;
+                    $planEstatalDesarrollo['tema'] = $tema->nombre;
+                    $planEstatalDesarrollo['eje'] = $eje->nombre;
+                    
+                    $unidad = Unidad::model()->findByAttributes(array('id_unidad'=>$caratula->id_unidad));
+                    $entePublico = EntePublico::model()->findByAttributes(array('id_ente_publico'=>$unidad->id_ente_publico));
+                    $entidad = Entidad::model()->findByAttributes(array('id_entidad'=>$entePublico->id_entidad));
+                    
+                    $unidadResponsable['unidad'] = $unidad->nombre;
+                    $unidadResponsable['entePublico'] = $entePublico->nombre;
+                    $unidadResponsable['entidad'] = $entidad->nombre;
+                    
+                    //$datosCaratulaPoa = $caratula;
+                }
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -94,6 +121,9 @@ class ProgramaPresupuestalController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'datosCaratulaPoa' => $datosCaratulaPoa,
+                        'planEstatalDesarrollo' => $planEstatalDesarrollo,
+                        'unidadResponsable' => $unidadResponsable,
 		));
 	}
 

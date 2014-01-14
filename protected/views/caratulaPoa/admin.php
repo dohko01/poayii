@@ -44,13 +44,41 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id_programa_presupuestario',
-		'id_unidad',
-		'id_politica_publica',
-		'id_programa_sectorial',
-		'id_usuario',
+                array(
+                    'header'=>'Programa Presupuestario',
+                    'value'=>'($data->idProgramaPresupuestario!=null) ? $data->idProgramaPresupuestario->nombre : null',
+                    //'filter'=>CHtml::activeTextField($model,'institucion_search')
+		),
+                array(
+                    'header'=>'Unidad Responsable',
+                    'value'=>'($data->idUnidad!=null) ? $data->idUnidad->nombre : null',
+                    //'filter'=>CHtml::activeTextField($model,'institucion_search')
+		),
+                array(
+                    'header'=>'Politica Publica',
+                    'value'=>'($data->idPoliticaPublica!=null) ? $data->idPoliticaPublica->nombre : null',
+                    //'filter'=>CHtml::activeTextField($model,'institucion_search')
+		),
+                array(
+                    'header'=>'Programa Sectorial',
+                    'value'=>'($data->idProgramaSectorial!=null) ? $data->idProgramaSectorial->nombre : null',
+                    //'filter'=>CHtml::activeTextField($model,'institucion_search')
+		),
+		//'id_programa_presupuestario',
+		//'id_unidad',
+		//'id_politica_publica',
+		//'id_programa_sectorial',
+		//'id_usuario',
 		array(
 			'class'=>'CButtonColumn',
+                        'template'=>'{programaP}{view}{update}{delete}',
+                        'buttons'=>array(
+                                    'programaP' => array(
+                                        'label' => 'Crear Programa Presupuestal',
+                                        'imageUrl' => 'aad.png',
+                                        'url' => 'Yii::app()->createUrl("ProgramaPresupuestal/create", array("id_caratula_poa"=>"$data->id_caratula_poa"))',
+                                    )
+                                ),
 		),
 	),
 )); ?>
