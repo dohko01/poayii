@@ -13,7 +13,7 @@ class ArbolProblemaController extends Controller
 	 *
 	 * @var string
 	 */
-	public $title_sin = 'ArbolProblema';
+	public $title_sin = 'Arbol de Problemas y Objetivos';
 
 	/**
 	 * Titulo plural para breadcrumb y encabezado
@@ -80,20 +80,73 @@ class ArbolProblemaController extends Controller
 	{
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Crear';
         
-		$model=new ArbolProblema;
+		$model = new ArbolProblema;
+                $modelArbolObjetivo = new ArbolObjetivo;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
+                
+                $validate = true;
 
 		if(isset($_POST['ArbolProblema']))
 		{
 			$model->attributes=$_POST['ArbolProblema'];
 			if($model->save())
-				$this->redirect(array('Problematica/create','id_arbol_problema'=>$model->id_arbol_problematica));
-		}
+                        {
+                            if(!empty($_POST['causas']))
+                            {
+                                $_POST['Problematica']['id_arbol_problematica'] = $model->id_arbol_problematica;
+                                $modelProblematica = new Problematica;
+                                $modelProblematica->insertCausas($_POST);
+                            }
+                            
+                            if(!empty($_POST['efectos']))
+                            {
+                                $_POST['Problematica']['id_arbol_problematica'] = $model->id_arbol_problematica;
+                                $modelProblematica = new Problematica;
+                                $modelProblematica->insertEfectos($_POST);
+                            }
+                            //$this->redirect(array('Problematica/create','id_arbol_problema'=>$model->id_arbol_problematica));
+                        }else{
+                            $validate = false;
+                        }
+		}else{
+                    $validate = false;
+                }
+                
+                if(isset($_POST['ArbolObjetivo']))
+		{
+			$modelArbolObjetivo->attributes=$_POST['ArbolObjetivo'];
+			if($modelArbolObjetivo->save())
+                        {
+                            if(!empty($_POST['medios']))
+                            {
+                                $_POST['Objetivo']['id_arbol_objetivo'] = $modelArbolObjetivo->id_arbol_objetivo;
+                                $modelObjetivo = new Objetivo;
+                                $modelObjetivo->insertMedios($_POST);
+                            }
+                            
+                            if(!empty($_POST['fines']))
+                            {
+                                $_POST['Objetivo']['id_arbol_objetivo'] = $modelArbolObjetivo->id_arbol_objetivo;
+                                $modelObjetivo = new Objetivo;
+                                $modelObjetivo->insertFines($_POST);
+                            }
+                            //$this->redirect(array('Problematica/create','id_arbol_problema'=>$model->id_arbol_problematica));
+                        }else{
+                            $validate = false;
+                        }
+		}else{
+                    $validate = false;
+                }
+                
+                if($validate){
+                    $this->redirect(array('objetivoIndicador/create','id_programa_presupuestal'=>$model->id_programa_presupuestal));
+                }
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'modelArbolObjetivo' => $modelArbolObjetivo,
                         'id_programa_presupuestal'=>$_GET['id_programa_presupuestal'],
 		));
 	}

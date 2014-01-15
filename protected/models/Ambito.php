@@ -7,6 +7,9 @@
  * @property integer $id_ambito
  * @property string $clave
  * @property string $descripcion
+ *
+ * The followings are the available model relations:
+ * @property TblObjetivoIndicador[] $tblObjetivoIndicadors
  */
 class Ambito extends CActiveRecord
 {
@@ -42,6 +45,7 @@ class Ambito extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblObjetivoIndicadors' => array(self::HAS_MANY, 'TblObjetivoIndicador', 'id_ambito'),
 		);
 	}
 

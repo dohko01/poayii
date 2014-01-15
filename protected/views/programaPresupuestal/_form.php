@@ -127,12 +127,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'cuantificacion_area_enfoque_potencial'); ?>
-		<?php echo $form->textField($model,'cuantificacion_area_enfoque_potencial'); ?>
-		<?php echo $form->error($model,'cuantificacion_area_enfoque_potencial'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'area_enfoque_objetivo'); ?>
 		<?php echo $form->textArea($model,'area_enfoque_objetivo',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'area_enfoque_objetivo'); ?>
@@ -148,6 +142,12 @@
 		<?php echo $form->labelEx($model,'area_enfoque_potencial'); ?>
 		<?php echo $form->textArea($model,'area_enfoque_potencial',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'area_enfoque_potencial'); ?>
+	</div>
+        
+        <div class="row">
+		<?php echo $form->labelEx($model,'cuantificacion_area_enfoque_potencial'); ?>
+		<?php echo $form->textField($model,'cuantificacion_area_enfoque_potencial'); ?>
+		<?php echo $form->error($model,'cuantificacion_area_enfoque_potencial'); ?>
 	</div>
         
         <?php
