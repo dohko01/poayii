@@ -7,6 +7,9 @@
  * @property integer $id_programa_especial
  * @property string $clave
  * @property string $nombre
+ *
+ * The followings are the available model relations:
+ * @property ProyectoInstitucional[] $ProyectosInstitucionales
  */
 class ProgramaEspecial extends CActiveRecord
 {
@@ -42,6 +45,7 @@ class ProgramaEspecial extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'ProyectosInstitucionales' => array(self::HAS_MANY, 'ProyectoInstitucional', 'id_programa_especial'),
 		);
 	}
 
@@ -51,7 +55,7 @@ class ProgramaEspecial extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_programa_especial' => 'Id Programa Especial',
+			'id_programa_especial' => 'Programa Especial',
 			'clave' => 'Clave',
 			'nombre' => 'Nombre',
 		);
@@ -76,11 +80,12 @@ class ProgramaEspecial extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_programa_especial',$this->id_programa_especial);
-		$criteria->compare('clave',$this->clave,true);
-		$criteria->compare('nombre',$this->nombre,true);
+		$criteria->compare('LOWER(clave)',strtolower($this->clave),true);
+		$criteria->compare('LOWER(nombre)',strtolower($this->nombre),true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 

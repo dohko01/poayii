@@ -20,6 +20,10 @@
  * @property double $marginacion_muy_baja
  * @property integer $id_proyecto_institucional
  * @property integer $id_unidad_beneficiario
+ *
+ * The followings are the available model relations:
+ * @property ProyectoInstitucional $ProyectoInstitucional
+ * @property UnidadBeneficiario $UnidadBeneficiario
  */
 class Beneficiario extends CActiveRecord
 {
@@ -55,6 +59,8 @@ class Beneficiario extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'ProyectoInstitucional' => array(self::BELONGS_TO, 'ProyectoInstitucional', 'id_proyecto_institucional'),
+			'UnidadBeneficiario' => array(self::BELONGS_TO, 'UnidadBeneficiario', 'id_unidad_beneficiario'),
 		);
 	}
 
@@ -64,22 +70,22 @@ class Beneficiario extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_beneficiario' => 'Id Beneficiario',
+			'id_beneficiario' => 'Beneficiario',
 			'total' => 'Total',
-			'genero' => 'Genero',
+			'genero' => 'Género',
 			'urbano' => 'Urbano',
 			'rural' => 'Rural',
 			'mestizo' => 'Mestizo',
 			'indigena' => 'Indigena',
 			'inmigrante' => 'Inmigrante',
 			'otros' => 'Otros',
-			'marginacion_muy_alta' => 'Marginacion Muy Alta',
-			'marginacion_alta' => 'Marginacion Alta',
-			'marginacion_media' => 'Marginacion Media',
-			'marginacion_baja' => 'Marginacion Baja',
-			'marginacion_muy_baja' => 'Marginacion Muy Baja',
-			'id_proyecto_institucional' => 'Id Proyecto Institucional',
-			'id_unidad_beneficiario' => 'Id Unidad Beneficiario',
+			'marginacion_muy_alta' => 'Marginación Muy Alta',
+			'marginacion_alta' => 'Marginación Alta',
+			'marginacion_media' => 'Marginación Media',
+			'marginacion_baja' => 'Marginación Baja',
+			'marginacion_muy_baja' => 'Marginación Muy Baja',
+			'id_proyecto_institucional' => 'Proyecto Institucional',
+			'id_unidad_beneficiario' => 'Unidad Beneficiario',
 		);
 	}
 
@@ -120,6 +126,7 @@ class Beneficiario extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 

@@ -51,9 +51,9 @@ class Funcion extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_funcion' => 'Id Funcion',
-			'descripcion' => 'Descripcion',
-			'id_finalidad' => 'Id Finalidad',
+			'id_funcion' => 'Función',
+			'descripcion' => 'Descripción',
+			'id_finalidad' => 'Finalidad',
 		);
 	}
 
@@ -76,11 +76,12 @@ class Funcion extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_funcion',$this->id_funcion);
-		$criteria->compare('descripcion',$this->descripcion,true);
+		$criteria->compare('LOWER(descripcion)',strtolower($this->descripcion),true);
 		$criteria->compare('id_finalidad',$this->id_finalidad);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 
