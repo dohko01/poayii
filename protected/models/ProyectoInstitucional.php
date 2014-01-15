@@ -18,6 +18,17 @@
  * @property integer $id_proyecto_tipo
  * @property integer $id_tipo_accion
  * @property integer $id_caratula_poa
+ *
+ * The followings are the available model relations:
+ * @property CaratulaPoa $CaratulaPoa
+ * @property ActividadInstitucional $ActividadInstitucional
+ * @property ProgramaEspecial $ProgramaEspecial
+ * @property ProyectoEstrategico $ProyectoEstrategico
+ * @property ProyectoTipo $ProyectoTipo
+ * @property SubSubfuncion $SubSubfuncion
+ * @property TipoAccion $TipoAccion
+ * @property Beneficiario[] $Beneficiarios
+ * @property Indicador[] $Indicadores
  */
 class ProyectoInstitucional extends CActiveRecord
 {
@@ -53,6 +64,15 @@ class ProyectoInstitucional extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'CaratulaPoa' => array(self::BELONGS_TO, 'CaratulaPoa', 'id_caratula_poa'),
+			'ActividadInstitucional' => array(self::BELONGS_TO, 'ActividadInstitucional', 'id_actividad_institucional'),
+			'ProgramaEspecial' => array(self::BELONGS_TO, 'ProgramaEspecial', 'id_programa_especial'),
+			'ProyectoEstrategico' => array(self::BELONGS_TO, 'ProyectoEstrategico', 'id_proyecto_estrategico'),
+			'ProyectoTipo' => array(self::BELONGS_TO, 'ProyectoTipo', 'id_proyecto_tipo'),
+			'SubSubfuncion' => array(self::BELONGS_TO, 'SubSubfuncion', 'id_sub_subfuncion'),
+			'TipoAccion' => array(self::BELONGS_TO, 'TipoAccion', 'id_tipo_accion'),
+			'Beneficiarios' => array(self::HAS_MANY, 'Beneficiario', 'id_proyecto_institucional'),
+			'Indicadors' => array(self::HAS_MANY, 'Indicador', 'id_proyecto_institucional'),
 		);
 	}
 
@@ -62,20 +82,20 @@ class ProyectoInstitucional extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_proyecto_institucional' => 'Id Proyecto Institucional',
-			'nombre_tecnico' => 'Nombre Tecnico',
-			'numero_proyecto_estrategico' => 'Numero Proyecto Estrategico',
-			'lider_proyecto' => 'Lider Proyecto',
+			'id_proyecto_institucional' => 'Proyecto Institucional',
+			'nombre_tecnico' => 'Nombre Técnico',
+			'numero_proyecto_estrategico' => 'Número de Proyecto Estrategico',
+			'lider_proyecto' => 'Lider del Proyecto',
 			'jefe_inmediato' => 'Jefe Inmediato',
-			'jefe_planeacion' => 'Jefe Planeacion',
-			'coordinador_grupo_estrategico' => 'Coordinador Grupo Estrategico',
-			'id_actividad_institucional' => 'Id Actividad Institucional',
-			'id_sub_subfuncion' => 'Id Sub Subfuncion',
-			'id_programa_especial' => 'Id Programa Especial',
-			'id_proyecto_estrategico' => 'Id Proyecto Estrategico',
-			'id_proyecto_tipo' => 'Id Proyecto Tipo',
-			'id_tipo_accion' => 'Id Tipo Accion',
-			'id_caratula_poa' => 'Id Caratula Poa',
+			'jefe_planeacion' => 'Jefe de Planeación',
+			'coordinador_grupo_estrategico' => 'Coordinador del Grupo Estrategico',
+			'id_actividad_institucional' => 'Actividad Institucional',
+			'id_sub_subfuncion' => 'SubSubfunción',
+			'id_programa_especial' => 'Programa Especial',
+			'id_proyecto_estrategico' => 'Proyecto Estrategico',
+			'id_proyecto_tipo' => 'Tipo de Proyecto',
+			'id_tipo_accion' => 'Tipo de Acción',
+			'id_caratula_poa' => 'Caratula Poa',
 		);
 	}
 
@@ -98,12 +118,12 @@ class ProyectoInstitucional extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_proyecto_institucional',$this->id_proyecto_institucional);
-		$criteria->compare('nombre_tecnico',$this->nombre_tecnico,true);
+		$criteria->compare('LOWER(nombre_tecnico)',strtolower($this->nombre_tecnico),true);
 		$criteria->compare('numero_proyecto_estrategico',$this->numero_proyecto_estrategico);
-		$criteria->compare('lider_proyecto',$this->lider_proyecto,true);
-		$criteria->compare('jefe_inmediato',$this->jefe_inmediato,true);
-		$criteria->compare('jefe_planeacion',$this->jefe_planeacion,true);
-		$criteria->compare('coordinador_grupo_estrategico',$this->coordinador_grupo_estrategico,true);
+		$criteria->compare('LOWER(lider_proyecto)',strtolower($this->lider_proyecto),true);
+		$criteria->compare('LOWER(jefe_inmediato)',strtolower($this->jefe_inmediato),true);
+		$criteria->compare('LOWER(jefe_planeacion)',strtolower($this->jefe_planeacion),true);
+		$criteria->compare('LOWER(coordinador_grupo_estrategico)',strtolower($this->coordinador_grupo_estrategico),true);
 		$criteria->compare('id_actividad_institucional',$this->id_actividad_institucional);
 		$criteria->compare('id_sub_subfuncion',$this->id_sub_subfuncion);
 		$criteria->compare('id_programa_especial',$this->id_programa_especial);
@@ -114,6 +134,7 @@ class ProyectoInstitucional extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 

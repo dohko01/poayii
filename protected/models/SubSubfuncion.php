@@ -7,6 +7,10 @@
  * @property integer $id_sub_subfuncion
  * @property string $descripcion
  * @property integer $id_subfuncion
+ *
+ * The followings are the available model relations:
+ * @property ProyectoInstitucional[] $ProyectosInstitucionales
+ * @property Subfuncion $Subfuncion
  */
 class SubSubfuncion extends CActiveRecord
 {
@@ -42,6 +46,8 @@ class SubSubfuncion extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'ProyectosInstitucionales' => array(self::HAS_MANY, 'ProyectoInstitucional', 'id_sub_subfuncion'),
+			'Subfuncion' => array(self::BELONGS_TO, 'Subfuncion', 'id_subfuncion'),
 		);
 	}
 
@@ -51,9 +57,9 @@ class SubSubfuncion extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_sub_subfuncion' => 'Id Sub Subfuncion',
-			'descripcion' => 'Descripcion',
-			'id_subfuncion' => 'Id Subfuncion',
+			'id_sub_subfuncion' => 'Sub Subfunción',
+			'descripcion' => 'Descripción',
+			'id_subfuncion' => 'Subfunción',
 		);
 	}
 
@@ -76,11 +82,12 @@ class SubSubfuncion extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_sub_subfuncion',$this->id_sub_subfuncion);
-		$criteria->compare('descripcion',$this->descripcion,true);
+		$criteria->compare('LOWER(descripcion)',strtolower($this->descripcion),true);
 		$criteria->compare('id_subfuncion',$this->id_subfuncion);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 

@@ -6,6 +6,9 @@
  * The followings are the available columns in table 'tblc_finalidad':
  * @property integer $id_finalidad
  * @property string $descripcion
+ *
+ * The followings are the available model relations:
+ * @property Funcion[] $Funciones
  */
 class Finalidad extends CActiveRecord
 {
@@ -40,6 +43,7 @@ class Finalidad extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'Funciones' => array(self::HAS_MANY, 'Funcion', 'id_finalidad'),
 		);
 	}
 
@@ -49,8 +53,8 @@ class Finalidad extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_finalidad' => 'Id Finalidad',
-			'descripcion' => 'Descripcion',
+			'id_finalidad' => 'Finalidad',
+			'descripcion' => 'Descripción',
 		);
 	}
 
@@ -73,10 +77,11 @@ class Finalidad extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_finalidad',$this->id_finalidad);
-		$criteria->compare('descripcion',$this->descripcion,true);
+		$criteria->compare('LOWER(descripcion)',strtolower($this->descripcion),true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 

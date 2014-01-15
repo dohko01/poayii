@@ -7,6 +7,9 @@
  * @property integer $id_proyecto_tipo
  * @property string $clave
  * @property string $descripcion
+ *
+ * The followings are the available model relations:
+ * @property ProyectoInstitucional[] $ProyectosInstitucionales
  */
 class ProyectoTipo extends CActiveRecord
 {
@@ -42,6 +45,7 @@ class ProyectoTipo extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'ProyectosInstitucionales' => array(self::HAS_MANY, 'ProyectoInstitucional', 'id_proyecto_tipo'),
 		);
 	}
 
@@ -51,9 +55,9 @@ class ProyectoTipo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_proyecto_tipo' => 'Id Proyecto Tipo',
+			'id_proyecto_tipo' => 'Tipo de Proyecto ',
 			'clave' => 'Clave',
-			'descripcion' => 'Descripcion',
+			'descripcion' => 'Descripción',
 		);
 	}
 
@@ -76,11 +80,12 @@ class ProyectoTipo extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_proyecto_tipo',$this->id_proyecto_tipo);
-		$criteria->compare('clave',$this->clave,true);
-		$criteria->compare('descripcion',$this->descripcion,true);
+		$criteria->compare('LOWER(clave)',strtolower($this->clave),true);
+		$criteria->compare('LOWER(descripcion)',strtolower($this->descripcion),true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 

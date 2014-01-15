@@ -6,6 +6,9 @@
  * The followings are the available columns in table 'tblc_unidad_beneficiario':
  * @property integer $id_unidad_beneficiario
  * @property string $nombre
+ *
+ * The followings are the available model relations:
+ * @property Beneficiario[] $Beneficiarios
  */
 class UnidadBeneficiario extends CActiveRecord
 {
@@ -40,6 +43,7 @@ class UnidadBeneficiario extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'Beneficiarios' => array(self::HAS_MANY, 'Beneficiario', 'id_unidad_beneficiario'),
 		);
 	}
 
@@ -49,7 +53,7 @@ class UnidadBeneficiario extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_unidad_beneficiario' => 'Id Unidad Beneficiario',
+			'id_unidad_beneficiario' => 'Unidad Beneficiario',
 			'nombre' => 'Nombre',
 		);
 	}
@@ -73,10 +77,11 @@ class UnidadBeneficiario extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_unidad_beneficiario',$this->id_unidad_beneficiario);
-		$criteria->compare('nombre',$this->nombre,true);
+		$criteria->compare('LOWER(nombre)',strtolower($this->nombre),true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+            'pagination'=>array('pageSize'=>20)
 		));
 	}
 
