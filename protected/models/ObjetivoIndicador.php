@@ -11,6 +11,12 @@
  * @property integer $id_programa_presupuestal
  * @property integer $id_objetivo
  * @property integer $id_ambito
+ *
+ * The followings are the available model relations:
+ * @property TblIndicador[] $tblIndicadors
+ * @property TblProgramaPresupuestal $idProgramaPresupuestal
+ * @property TblObjetivo $idObjetivo
+ * @property TblcAmbito $idAmbito
  */
 class ObjetivoIndicador extends CActiveRecord
 {
@@ -47,6 +53,10 @@ class ObjetivoIndicador extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblIndicadors' => array(self::HAS_MANY, 'TblIndicador', 'id_objetivo_indicador'),
+			'idProgramaPresupuestal' => array(self::BELONGS_TO, 'TblProgramaPresupuestal', 'id_programa_presupuestal'),
+			'idObjetivo' => array(self::BELONGS_TO, 'TblObjetivo', 'id_objetivo'),
+			'idAmbito' => array(self::BELONGS_TO, 'TblcAmbito', 'id_ambito'),
 		);
 	}
 

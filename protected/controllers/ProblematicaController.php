@@ -94,7 +94,7 @@ class ProblematicaController extends Controller
 
 		if(isset($_POST['Problematica']))
 		{
-                    print_r($_POST);
+                    //print_r($_POST);
                         if(!empty($_POST['causas']))
                         {
                             $model->insertCausas($_POST);

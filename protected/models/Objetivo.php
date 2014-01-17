@@ -97,4 +97,45 @@ class Objetivo extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public function insertMedios($values, $tipo = 'medio')
+        {
+            $models = array();
+            $valid = true;
+            
+            $nombreTipo = 'medios';
+            
+            if($tipo == 'fin')
+            {
+                $nombreTipo = 'fines';
+            }
+            
+            foreach($values[$nombreTipo] as $key => $causa)
+            {
+                $models[$key] = Objetivo::model();
+            }
+
+            foreach($values[$nombreTipo] as $key2 => $causa)
+            {
+                $models[$key2] = new Objetivo;
+                $models[$key2]->id_arbol_objetivo = $values['Problematica']['id_arbol_objetivo'];
+                $models[$key2]->descripcion = $causa;
+                $models[$key2]->tipo = $tipo;
+                $valid = $models[$key2]->validate() && $valid;
+            }
+
+            if($valid)
+            {
+                $ii = 0;
+                while(isset($models[$ii]))
+                {
+                    $models[$ii++]->save(false);
+                }
+            }
+        }
+        
+        public function insertFines($values)
+        {
+            $this->insertMedios($values, 'fin');
+        }
 }

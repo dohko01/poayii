@@ -44,7 +44,7 @@ $this->menu=array(
             'name'=>'btnArbolProblema',
             'value'=>$model->id_programa_presupuestal,
             'url'=>Yii::app()->createUrl('arbolProblema/create',array('id_programa_presupuestal'=>$model->id_programa_presupuestal)),
-            'caption'=>'Capturar Arbol de Problema',
+            'caption'=>'Capturar Arbol de Problemas y Objetivos',
             )
         );
 ?>

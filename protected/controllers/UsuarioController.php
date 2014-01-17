@@ -47,7 +47,7 @@ class UsuarioController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'expression'=>Yii::app()->params['permiso_acceso'],
+				'users'=>array('*'),//'expression'=>Yii::app()->params['permiso_acceso'],
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),

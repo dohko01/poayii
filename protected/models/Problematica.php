@@ -102,22 +102,29 @@ class Problematica extends CActiveRecord
 		return parent::model($className);
 	}
         
-        public function insertCausas($values)
+        public function insertCausas($values, $tipo = 'causa')
         {
             $models = array();
             $valid = true;
             
-            foreach($values['causas'] as $key => $causa)
+            $nombreTipo = 'causas';
+            
+            if($tipo == 'efecto')
+            {
+                $nombreTipo = 'efectos';
+            }
+            
+            foreach($values[$nombreTipo] as $key => $causa)
             {
                 $models[$key] = Problematica::model();
             }
 
-            foreach($values['causas'] as $key2 => $causa)
+            foreach($values[$nombreTipo] as $key2 => $causa)
             {
                 $models[$key2] = new Problematica;
                 $models[$key2]->id_arbol_problematica = $values['Problematica']['id_arbol_problematica'];
                 $models[$key2]->descripcion = $causa;
-                $models[$key2]->tipo = 'causa';
+                $models[$key2]->tipo = $tipo;
                 $valid = $models[$key2]->validate() && $valid;
             }
 
@@ -129,5 +136,10 @@ class Problematica extends CActiveRecord
                     $models[$ii++]->save(false);
                 }
             }
+        }
+        
+        public function insertEfectos($values)
+        {
+            $this->insertCausas($values, 'efecto');
         }
 }
