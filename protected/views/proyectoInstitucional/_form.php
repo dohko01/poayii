@@ -18,6 +18,80 @@
 	<p class="note">Campos con <span class="required">*</span> son obligatorios.</p>
 
 	<?php echo $form->errorSummary($model); ?>
+    
+    <div class="row">
+        <?php echo CHtml::label('Finalidad', 'finalidad'); ?>
+        <?php echo CHtml::dropDownList('finalidad', 'finalidad', 
+                                    CHtml::listData(Finalidad::model()->findAll(array('order'=>'descripcion ASC')), 'id_finalidad', 'descripcion'),
+                                    array('empty'=>'Seleccionar..',
+                                            'ajax' => array(
+                                                    'type'   => 'POST',
+                                                    'url'    => CController::createUrl('Funcion/getAll'),
+                                                    'update' => '#funcion')
+                                        ) ); ?>
+    </div>
+    
+    <div class="row">
+        <?php echo CHtml::label('Función', 'funcion'); ?>
+        <?php echo CHtml::dropDownList('funcion', 'funcion', 
+                                    CHtml::listData(Funcion::model()->findAll(array('order'=>'descripcion ASC')), 'id_funcion', 'descripcion'),
+                                    array('empty'=>'Seleccionar..',
+                                            'ajax' => array(
+                                                    'type'   => 'POST',
+                                                    'url'    => CController::createUrl('SubFuncion/getAll'),
+                                                    'update' => '#subfuncion')
+                                        ) ); ?>
+    </div>
+    
+    <div class="row">
+        <?php echo CHtml::label('Sub Función', 'subfuncion'); ?>
+        <?php echo CHtml::dropDownList('subfuncion', 'subfuncion', 
+                                    CHtml::listData(Subfuncion::model()->findAll(array('order'=>'descripcion ASC')), 'id_subfuncion', 'descripcion'),
+                                    array('empty'=>'Seleccionar..',
+                                            'ajax' => array(
+                                                    'type'   => 'POST',
+                                                    'url'    => CController::createUrl('SubSubFuncion/getAll'),
+                                                    'update' => '#ProyectoInstitucional_id_sub_subfuncion')
+                                        ) ); ?>
+    </div>
+    
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_sub_subfuncion'); ?>
+		<?php echo $form->dropDownList($model, 'id_sub_subfuncion',
+                                    CHtml::listData(SubSubfuncion::model()->findAll(array('order'=>'descripcion ASC')), 'id_sub_subfuncion', 'descripcion'),
+                                    array('empty'=>'Seleccionar..') ); ?>
+		<?php echo $form->error($model,'id_sub_subfuncion'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_programa_especial'); ?>
+		<?php echo $form->dropDownList($model, 'id_programa_especial',
+                                    CHtml::listData(ProgramaEspecial::model()->findAll(array('order'=>'nombre ASC')), 'id_programa_especial', 'nombre'),
+                                    array('empty'=>'Seleccionar..') ); ?>
+		<?php echo $form->error($model,'id_programa_especial'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_actividad_institucional'); ?>
+		<?php echo $form->dropDownList($model, 'id_actividad_institucional',
+                                    CHtml::listData(ActividadInstitucional::model()->findAll(array('order'=>'descripcion ASC')), 'id_actividad_institucional', 'descripcion'),
+                                    array('empty'=>'Seleccionar..') ); ?>
+		<?php echo $form->error($model,'id_actividad_institucional'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_proyecto_estrategico'); ?>
+		<?php echo  $form->dropDownList($model, 'id_proyecto_estrategico',
+                                    CHtml::listData(ProyectoEstrategico::model()->findAll(array('order'=>'descripcion ASC')), 'id_proyecto_estrategico', 'descripcion'),
+                                    array('empty'=>'Seleccionar..') ); ?>
+		<?php echo $form->error($model,'id_proyecto_estrategico'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'numero_proyecto_estrategico'); ?>
+		<?php echo $form->textField($model,'numero_proyecto_estrategico'); ?>
+		<?php echo $form->error($model,'numero_proyecto_estrategico'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'nombre_tecnico'); ?>
@@ -26,9 +100,19 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'numero_proyecto_estrategico'); ?>
-		<?php echo $form->textField($model,'numero_proyecto_estrategico'); ?>
-		<?php echo $form->error($model,'numero_proyecto_estrategico'); ?>
+		<?php echo $form->labelEx($model,'id_proyecto_tipo'); ?>
+		<?php echo $form->dropDownList($model, 'id_proyecto_tipo',
+                                    CHtml::listData(ProyectoTipo::model()->findAll(), 'id_tipo_proyecto', 'descripcion'),
+                                    array('empty'=>'Seleccionar..') ); ?>
+		<?php echo $form->error($model,'id_proyecto_tipo'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_tipo_accion'); ?>
+		<?php echo $form->dropDownList($model, 'id_tipo_accion',
+                                    CHtml::listData(TipoAccion::model()->findAll(), 'id_tipo_accion', 'nombre'),
+                                    array('empty'=>'Seleccionar..') ); ?>
+		<?php echo $form->error($model,'id_tipo_accion'); ?>
 	</div>
 
 	<div class="row">
@@ -53,48 +137,6 @@
 		<?php echo $form->labelEx($model,'coordinador_grupo_estrategico'); ?>
 		<?php echo $form->textField($model,'coordinador_grupo_estrategico',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'coordinador_grupo_estrategico'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_actividad_institucional'); ?>
-		<?php echo $form->textField($model,'id_actividad_institucional'); ?>
-		<?php echo $form->error($model,'id_actividad_institucional'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_sub_subfuncion'); ?>
-		<?php echo $form->textField($model,'id_sub_subfuncion'); ?>
-		<?php echo $form->error($model,'id_sub_subfuncion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_programa_especial'); ?>
-		<?php echo $form->textField($model,'id_programa_especial'); ?>
-		<?php echo $form->error($model,'id_programa_especial'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_proyecto_estrategico'); ?>
-		<?php echo $form->textField($model,'id_proyecto_estrategico'); ?>
-		<?php echo $form->error($model,'id_proyecto_estrategico'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_proyecto_tipo'); ?>
-		<?php echo $form->textField($model,'id_proyecto_tipo'); ?>
-		<?php echo $form->error($model,'id_proyecto_tipo'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_tipo_accion'); ?>
-		<?php echo $form->textField($model,'id_tipo_accion'); ?>
-		<?php echo $form->error($model,'id_tipo_accion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_caratula_poa'); ?>
-		<?php echo $form->textField($model,'id_caratula_poa'); ?>
-		<?php echo $form->error($model,'id_caratula_poa'); ?>
 	</div>
 
 	<div class="row buttons">

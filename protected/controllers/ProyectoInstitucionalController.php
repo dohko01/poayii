@@ -13,14 +13,14 @@ class ProyectoInstitucionalController extends Controller
 	 *
 	 * @var string
 	 */
-	public $title_sin = 'ProyectoInstitucional';
+	public $title_sin = 'Proyecto Institucional';
 
 	/**
 	 * Titulo plural para breadcrumb y encabezado
 	 *     
 	 * @var string 
 	 */
-	public $title_plu = 'ProyectoInstitucional';
+	public $title_plu = 'Proyectos Institucionales';
 
 	/**
 	 * @return array action filters

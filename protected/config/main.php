@@ -7,7 +7,8 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'SISTEMA PRESUPUESTARIO 2014',
+    'language'=>'es',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -93,6 +94,6 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
-                'permiso_acceso'=>'$user->id != 0 && $user->tipoUsuario == 1',
+        'permiso_acceso'=>'$user->id != 0 && $user->tipoUsuario == 1',
 	),
 );
