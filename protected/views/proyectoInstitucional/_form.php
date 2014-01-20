@@ -21,37 +21,40 @@
     
     <div class="row">
         <?php echo CHtml::label('Finalidad', 'finalidad'); ?>
-        <?php echo CHtml::dropDownList('finalidad', 'finalidad', 
+        <?php echo CHtml::dropDownList('finalidad', $model->SubSubfuncion->Subfuncion->Funcion->id_finalidad, 
                                     CHtml::listData(Finalidad::model()->findAll(array('order'=>'descripcion ASC')), 'id_finalidad', 'descripcion'),
                                     array('empty'=>'Seleccionar..',
                                             'ajax' => array(
                                                     'type'   => 'POST',
                                                     'url'    => CController::createUrl('Funcion/getAll'),
-                                                    'update' => '#funcion')
+                                                    'update' => '#funcion',
+                                                    'beforeSend' => 'function(){$("#funcion option:first").text("Cargando datos...");}')
                                         ) ); ?>
     </div>
     
     <div class="row">
         <?php echo CHtml::label('Función', 'funcion'); ?>
-        <?php echo CHtml::dropDownList('funcion', 'funcion', 
+        <?php echo CHtml::dropDownList('funcion', $model->SubSubfuncion->Subfuncion->Funcion, 
                                     CHtml::listData(Funcion::model()->findAll(array('order'=>'descripcion ASC')), 'id_funcion', 'descripcion'),
                                     array('empty'=>'Seleccionar..',
                                             'ajax' => array(
                                                     'type'   => 'POST',
                                                     'url'    => CController::createUrl('SubFuncion/getAll'),
-                                                    'update' => '#subfuncion')
+                                                    'update' => '#subfuncion',
+                                                    'beforeSend' => 'function(){$("#subfuncion option:first").text("Cargando datos...");}')
                                         ) ); ?>
     </div>
     
     <div class="row">
         <?php echo CHtml::label('Sub Función', 'subfuncion'); ?>
-        <?php echo CHtml::dropDownList('subfuncion', 'subfuncion', 
+        <?php echo CHtml::dropDownList('subfuncion', $model->SubSubfuncion->Subfuncion, 
                                     CHtml::listData(Subfuncion::model()->findAll(array('order'=>'descripcion ASC')), 'id_subfuncion', 'descripcion'),
                                     array('empty'=>'Seleccionar..',
                                             'ajax' => array(
                                                     'type'   => 'POST',
                                                     'url'    => CController::createUrl('SubSubFuncion/getAll'),
-                                                    'update' => '#ProyectoInstitucional_id_sub_subfuncion')
+                                                    'update' => '#ProyectoInstitucional_id_sub_subfuncion',
+                                                    'beforeSend' => 'function(){$("#ProyectoInstitucional_id_sub_subfuncion option:first").text("Cargando datos...");}')
                                         ) ); ?>
     </div>
     
@@ -102,15 +105,23 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_proyecto_tipo'); ?>
 		<?php echo $form->dropDownList($model, 'id_proyecto_tipo',
-                                    CHtml::listData(ProyectoTipo::model()->findAll(), 'id_tipo_proyecto', 'descripcion'),
+                                    CHtml::listData(ProyectoTipo::model()->findAll(array('order'=>'descripcion ASC')), 'id_proyecto_tipo', 'descripcion'),
                                     array('empty'=>'Seleccionar..') ); ?>
 		<?php echo $form->error($model,'id_proyecto_tipo'); ?>
+	</div>
+    
+    <div class="row">
+		<?php echo $form->labelEx($model,'id_cobertura'); ?>
+		<?php echo $form->dropDownList($model, 'id_cobertura',
+                                    CHtml::listData(Cobertura::model()->findAll(), 'id_cobertura', 'nombre'),
+                                    array('empty'=>'Seleccionar..') ); ?>
+		<?php echo $form->error($model,'id_cobertura'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_tipo_accion'); ?>
 		<?php echo $form->dropDownList($model, 'id_tipo_accion',
-                                    CHtml::listData(TipoAccion::model()->findAll(), 'id_tipo_accion', 'nombre'),
+                                    CHtml::listData(TipoAccion::model()->findAll(array('order'=>'nombre ASC')), 'id_tipo_accion', 'nombre'),
                                     array('empty'=>'Seleccionar..') ); ?>
 		<?php echo $form->error($model,'id_tipo_accion'); ?>
 	</div>
