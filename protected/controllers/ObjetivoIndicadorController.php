@@ -80,7 +80,8 @@ class ObjetivoIndicadorController extends Controller
 	{
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Crear';
         
-		$model=new ObjetivoIndicador;
+		$model = new ObjetivoIndicador;
+                $modelIndicador = new Indicador;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -94,6 +95,7 @@ class ObjetivoIndicadorController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'modelIndicador'=>$modelIndicador,
 		));
 	}
 

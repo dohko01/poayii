@@ -11,11 +11,12 @@
  * @property integer $id_programa_presupuestal
  * @property integer $id_objetivo
  * @property integer $id_ambito
+ * @property string $objetivo
  *
  * The followings are the available model relations:
  * @property TblIndicador[] $tblIndicadors
- * @property TblProgramaPresupuestal $idProgramaPresupuestal
  * @property TblObjetivo $idObjetivo
+ * @property TblProgramaPresupuestal $idProgramaPresupuestal
  * @property TblcAmbito $idAmbito
  */
 class ObjetivoIndicador extends CActiveRecord
@@ -38,10 +39,10 @@ class ObjetivoIndicador extends CActiveRecord
 		return array(
 			array('id_programa_presupuestal, id_objetivo, id_ambito', 'numerical', 'integerOnly'=>true),
 			array('medio_verificacion, supuestos', 'length', 'max'=>255),
-			array('tipo', 'safe'),
+			array('tipo, objetivo', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_objetivo_indicador, medio_verificacion, supuestos, tipo, id_programa_presupuestal, id_objetivo, id_ambito', 'safe', 'on'=>'search'),
+			array('id_objetivo_indicador, medio_verificacion, supuestos, tipo, id_programa_presupuestal, id_objetivo, id_ambito, objetivo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,8 +55,8 @@ class ObjetivoIndicador extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'tblIndicadors' => array(self::HAS_MANY, 'TblIndicador', 'id_objetivo_indicador'),
-			'idProgramaPresupuestal' => array(self::BELONGS_TO, 'TblProgramaPresupuestal', 'id_programa_presupuestal'),
 			'idObjetivo' => array(self::BELONGS_TO, 'TblObjetivo', 'id_objetivo'),
+			'idProgramaPresupuestal' => array(self::BELONGS_TO, 'TblProgramaPresupuestal', 'id_programa_presupuestal'),
 			'idAmbito' => array(self::BELONGS_TO, 'TblcAmbito', 'id_ambito'),
 		);
 	}
@@ -72,7 +73,8 @@ class ObjetivoIndicador extends CActiveRecord
 			'tipo' => 'Tipo',
 			'id_programa_presupuestal' => 'Id Programa Presupuestal',
 			'id_objetivo' => 'Id Objetivo',
-			'id_ambito' => 'Id Ambito',
+			'id_ambito' => 'Ambito',
+			'objetivo' => 'Objetivo',
 		);
 	}
 
@@ -101,6 +103,7 @@ class ObjetivoIndicador extends CActiveRecord
 		$criteria->compare('id_programa_presupuestal',$this->id_programa_presupuestal);
 		$criteria->compare('id_objetivo',$this->id_objetivo);
 		$criteria->compare('id_ambito',$this->id_ambito);
+		$criteria->compare('objetivo',$this->objetivo,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

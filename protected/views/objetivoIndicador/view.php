@@ -27,5 +27,6 @@ $this->menu=array(
 		'id_programa_presupuestal',
 		'id_objetivo',
 		'id_ambito',
+		'objetivo',
 	),
 )); ?>

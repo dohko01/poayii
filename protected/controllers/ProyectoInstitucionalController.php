@@ -46,7 +46,7 @@ class ProyectoInstitucionalController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','distribucionPresupuestal'),
 				'expression'=>Yii::app()->params['permiso_acceso'],
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -93,6 +93,27 @@ class ProyectoInstitucionalController extends Controller
 		}
 
 		$this->render('create',array(
+			'model'=>$model,
+		));
+	}
+        
+        public function actionDistribucionPresupuestal()
+	{
+		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Crear';
+        
+		$model=new ProyectoInstitucional;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['ProyectoInstitucional']))
+		{
+			$model->attributes=$_POST['ProyectoInstitucional'];
+			if($model->save())
+				$this->redirect(array('view','id'=>$model->id_proyecto_institucional));
+		}
+
+		$this->render('distribucionPresupuestal',array(
 			'model'=>$model,
 		));
 	}

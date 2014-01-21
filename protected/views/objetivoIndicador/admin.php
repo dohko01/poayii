@@ -50,6 +50,9 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 		'id_programa_presupuestal',
 		'id_objetivo',
 		'id_ambito',
+		/*
+		'objetivo',
+		*/
 		array(
 			'class'=>'CButtonColumn',
 		),

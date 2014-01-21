@@ -33,5 +33,11 @@
 	<?php echo CHtml::encode($data->id_ambito); ?>
 	<br />
 
+	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('objetivo')); ?>:</b>
+	<?php echo CHtml::encode($data->objetivo); ?>
+	<br />
+
+	*/ ?>
 
 </div>
