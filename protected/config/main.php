@@ -89,6 +89,11 @@ return array(
 			),
 		),
         
+        'request'=>array(
+            'enableCsrfValidation'=>true,
+            'enableCookieValidation'=>true,
+        ),
+        
         'ids' => array(
             'class' => 'application.components.ids.CPhpIds',
             'genericMessage' => 'Alerta de Seguridad...',
