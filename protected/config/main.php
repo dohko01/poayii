@@ -9,10 +9,10 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 
 	'name'=>'SISTEMA PRESUPUESTARIO 2014',
-        'language'=>'es',
+    'language'=>'es',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log','ids'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -88,6 +88,11 @@ return array(
 				*/
 			),
 		),
+        
+        'ids' => array(
+            'class' => 'application.components.ids.CPhpIds',
+            'genericMessage' => 'Alerta de Seguridad...',
+        )
 	),
 
 	// application-level parameters that can be accessed
