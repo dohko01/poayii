@@ -30,10 +30,19 @@ $this->menu=array(
 		'area_enfoque_objetivo',
 		'cuantificacion_area_enfoque_objetivo',
 		'area_enfoque_potencial',
-		'id_objetivo_pnd',
-		'id_objetivo_milenio',
-		'id_modalidad',
-		'id_caratula_poa',
+                array(
+                    'label' => 'Objetivo PND',
+                    'value' => ($model->idObjetivoPnd!=null) ? $model->idObjetivoPnd->descripcion : null,
+                ),
+		array(
+                    'label' => 'Objetivo del Milenio',
+                    'value' => ($model->idObjetivoMilenio!=null) ? $model->idObjetivoMilenio->nombre : null,
+                ),
+		array(
+                    'label' => 'Modalidad',
+                    'value' => ($model->idModalidad!=null) ? $model->idModalidad->nombre : null,
+                ),
+		//'id_caratula_poa',
 		'anio_inicio',
 		'anio_termino',
 	),

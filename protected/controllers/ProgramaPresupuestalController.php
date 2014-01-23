@@ -66,9 +66,14 @@ class ProgramaPresupuestalController extends Controller
 	public function actionView($id)
 	{
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Ver';
+                
+                $arbolProblemas = ArbolProblema::model()->findAllByAttributes(array('id_programa_presupuestal'=>$id));
+                
+                //print_r($arbolProblemas);
         
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
+                        'model'
 		));
 	}
 

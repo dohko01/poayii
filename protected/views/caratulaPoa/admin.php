@@ -71,13 +71,19 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 		//'id_usuario',
 		array(
 			'class'=>'CButtonColumn',
-                        'template'=>'{programaP}{view}{update}{delete}',
+                        'template'=>'{programaP}{listProgramaPresupuestal}{view}{update}{delete}',
                         'buttons'=>array(
                                     'programaP' => array(
                                         'label' => 'Crear Programa Presupuestal',
                                         'imageUrl' => 'aad.png',
                                         'url' => 'Yii::app()->createUrl("ProgramaPresupuestal/create", array("id_caratula_poa"=>"$data->id_caratula_poa"))',
-                                    )
+                                    ),
+                                    'listProgramaPresupuestal' => array(
+                                        'label' => 'Ver Programas Presupuestales',
+                                        'imageUrl' => Yii::app()->request->baseUrl.'/images/list-icon.png',
+                                        'options' => array('class'=>'cButtonColumn'),
+                                        'url' => 'Yii::app()->createUrl("ProgramaPresupuestal/admin", array("id_caratula_poa"=>"$data->id_caratula_poa"))',
+                                    ),
                                 ),
 		),
 	),

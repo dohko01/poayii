@@ -1,7 +1,7 @@
 <?php
 /* @var $this ProgramaPresupuestalController */
 /* @var $model ProgramaPresupuestal */
-
+/*
 $this->breadcrumbs=array(
 	$this->title_sin=>array('index'),
 	'Administrar',
@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Listar '.$this->title_plu, 'url'=>array('index')),
 	array('label'=>'Crear '.$this->title_sin, 'url'=>array('create')),
 );
-
+*/
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
 	$('.search-form').toggle();
@@ -33,8 +33,12 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 </p>
 
 <?php echo CHtml::link('Busqueda avanzada','#',array('class'=>'search-button')); ?>
+<br>
+    <?php echo CHtml::link('Regresar',Yii::app()->createUrl("caratulaPoa/admin")); ?>
 <div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
+<?php 
+    $model->id_caratula_poa = $_GET['id_caratula_poa'];
+    $this->renderPartial('_search',array(
 	'model'=>$model,
 )); ?>
 </div><!-- search-form -->

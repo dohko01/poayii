@@ -66,13 +66,13 @@ class ProgramaPresupuestal extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idCaratulaPoa' => array(self::BELONGS_TO, 'TblCaratulaPoa', 'id_caratula_poa'),
-			'idModalidad' => array(self::BELONGS_TO, 'TblcModalidad', 'id_modalidad'),
-			'idObjetivoPnd' => array(self::BELONGS_TO, 'TblcObjetivoPnd', 'id_objetivo_pnd'),
-			'idObjetivoMilenio' => array(self::BELONGS_TO, 'TblcObjetivosMilenio', 'id_objetivo_milenio'),
-			'tblObjetivoIndicadors' => array(self::HAS_MANY, 'TblObjetivoIndicador', 'id_programa_presupuestal'),
-			'tblArbolObjetivos' => array(self::HAS_MANY, 'TblArbolObjetivo', 'id_programa_presupuestal'),
-			'tblArbolProblemas' => array(self::HAS_MANY, 'TblArbolProblema', 'id_programa_presupuestal'),
+			'idCaratulaPoa' => array(self::BELONGS_TO, 'CaratulaPoa', 'id_caratula_poa'),
+			'idModalidad' => array(self::BELONGS_TO, 'Modalidad', 'id_modalidad'),
+			'idObjetivoPnd' => array(self::BELONGS_TO, 'ObjetivoPnd', 'id_objetivo_pnd'),
+			'idObjetivoMilenio' => array(self::BELONGS_TO, 'ObjetivosMilenio', 'id_objetivo_milenio'),
+			'tblObjetivoIndicadors' => array(self::HAS_MANY, 'ObjetivoIndicador', 'id_programa_presupuestal'),
+			'tblArbolObjetivos' => array(self::HAS_MANY, 'ArbolObjetivo', 'id_programa_presupuestal'),
+			'tblArbolProblemas' => array(self::HAS_MANY, 'ArbolProblema', 'id_programa_presupuestal'),
 		);
 	}
 

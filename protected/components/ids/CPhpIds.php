@@ -58,7 +58,7 @@ class CPhpIds extends CApplicationComponent {
                 //'REQUEST' => $_REQUEST,
                 'GET' => $_GET,
                 'POST' => $_POST,
-                'COOKIE' => $_COOKIE,
+                //'COOKIE' => $_COOKIE,
                 'FILE' => $_FILES
             );
 

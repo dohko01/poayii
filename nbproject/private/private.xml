@@ -2,6 +2,18 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/var/www/poayii/protected/views/site/contact.php</file>
+            <file>file:/var/www/poayii/protected/views/programaPresupuestal/create.php</file>
+            <file>file:/var/www/poayii/protected/controllers/ObjetivoIndicadorController.php</file>
+            <file>file:/var/www/poayii/protected/models/CaratulaPoa.php</file>
+            <file>file:/var/www/poayii/protected/views/caratulaPoa/admin.php</file>
+            <file>file:/var/www/poayii/protected/config/main.php</file>
+            <file>file:/var/www/poayii/protected/controllers/ProyectoInstitucionalController.php</file>
+            <file>file:/var/www/poayii/protected/controllers/CaratulaPoaController.php</file>
+            <file>file:/var/www/poayii/protected/controllers/ProgramaPresupuestalController.php</file>
+            <file>file:/var/www/poayii/protected/views/proyectoInstitucional/distribucionPresupuestal.php</file>
+            <file>file:/var/www/poayii/protected/views/proyectoInstitucional/_formDistribucion.php</file>
+        </group>
     </open-files>
 </project-private>
