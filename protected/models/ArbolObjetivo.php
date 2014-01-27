@@ -94,4 +94,18 @@ class ArbolObjetivo extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public function getMedios($id = 0) {
+            if($id == 0)
+                   $id = $this->id_arbol_objetivo;
+            $problemas  = Objetivo::model()->findAllByAttributes(array('id_arbol_objetivo'=>$id, 'tipo'=>'medio'));
+            return $problemas;
+        }
+        
+        public function getFines($id = 0) {
+            if($id == 0)
+                   $id = $this->id_arbol_objetivo;
+            $problemas  = Objetivo::model()->findAllByAttributes(array('id_arbol_objetivo'=>$id, 'tipo'=>'fin'));
+            return $problemas;
+        }
 }

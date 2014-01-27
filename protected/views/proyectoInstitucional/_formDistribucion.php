@@ -272,550 +272,1155 @@
         <th>Diciembre</th>
     </tr>
     <tr>
-        <td><input type="text" size="10px"></td>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
-        <th><input type="text" size="10px"></th>
+        <td><input type="text" size="6px"></td>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
+        <th><input type="text" size="6px"></th>
     </tr>
     <tr>
         <td colspan="12"><INPUT type="button" value="Agregar Partida"></TD>
     </tr>
 </table>
 
-<TABLE CELLSPACING="0" COLS="23" BORDER="0">
-        <COLGROUP WIDTH="25"></COLGROUP>
-        <COLGROUP WIDTH="67"></COLGROUP>
-        <COLGROUP WIDTH="49"></COLGROUP>
-        <COLGROUP WIDTH="27"></COLGROUP>
-        <COLGROUP WIDTH="84"></COLGROUP>
-        <COLGROUP WIDTH="122"></COLGROUP>
-        <COLGROUP WIDTH="95"></COLGROUP>
-        <COLGROUP WIDTH="104"></COLGROUP>
-        <COLGROUP WIDTH="101"></COLGROUP>
-        <COLGROUP WIDTH="81"></COLGROUP>
-        <COLGROUP WIDTH="75"></COLGROUP>
-        <COLGROUP WIDTH="89"></COLGROUP>
-        <COLGROUP WIDTH="82"></COLGROUP>
-        <COLGROUP WIDTH="81"></COLGROUP>
-        <COLGROUP WIDTH="69"></COLGROUP>
-        <COLGROUP WIDTH="74"></COLGROUP>
-        <COLGROUP WIDTH="95"></COLGROUP>
-        <COLGROUP WIDTH="101"></COLGROUP>
-        <COLGROUP WIDTH="64"></COLGROUP>
-        <COLGROUP WIDTH="99"></COLGROUP>
-        <COLGROUP WIDTH="72"></COLGROUP>
-        <COLGROUP WIDTH="84"></COLGROUP>
-        <COLGROUP WIDTH="85"></COLGROUP>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="34" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>AUTORIZADO                        </B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>FINANCIERO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>ESPECIE</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>TOTAL CALENDARIO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" BGCOLOR="#FFFFFF"><B>45% PRIMER SEMESTRE</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>ENERO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>FEBRERO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>MARZO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>ABRIL</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> MAYO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> JUNIO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>55% SEGUNDO SEMESTRE</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> JULIO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>AGOSTO</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>SEPTIEMBRE</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>OCTUBRE</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>NOVIEMBRE</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>DICIEMBRE</B></TD>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a" HEIGHT="85" ALIGN="CENTER" VALIGN=TOP><B>TG</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=TOP><B>FF SFF DG</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=TOP><B>CP</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=TOP><B>MD</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B>PARTIDA</B></TD>
-                </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=3>25901</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25269.37" SDNUM="2058;0;#,##0.00">25,269.37</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="25269.37" SDNUM="2058;0;#,##0.00">25,269.37</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="25269.37" SDNUM="2058;0;#,##0.00">25,269.37</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=3>25301</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="6000" SDNUM="2058;0;#,##0.00">6,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="6000" SDNUM="2058;0;#,##0.00">6,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="6000" SDNUM="2058;0;#,##0.00">6,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=3>25401</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="15040" SDNUM="2058;0;#,##0.00">15,040.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15040" SDNUM="2058;0;#,##0.00">15,040.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15040" SDNUM="2058;0;#,##0.00">15,040.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=3>25501</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="10616" SDNUM="2058;0;#,##0.00">10,616.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="10616" SDNUM="2058;0;#,##0.00">10,616.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="10616" SDNUM="2058;0;#,##0.00">10,616.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" COLSPAN=5 HEIGHT="32" ALIGN="CENTER" VALIGN=MIDDLE><B>RESUMEN GRAN TOTAL</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="56925.37" SDNUM="2058;0;#,##0.00"><B>56,925.37</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="56925.37" SDNUM="2058;0;#,##0.00"><B>56,925.37</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="56925.37" SDNUM="2058;0;#,##0.00"><B>56,925.37</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=3>25901</FONT></B></TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=3>25301</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=3>25401</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=3>25501</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" COLSPAN=5 HEIGHT="41" ALIGN="CENTER" VALIGN=MIDDLE><B>JURISDICCION SANITARIA I TUXTLA GUTIERREZ</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=3>25301</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=3>25401</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=3>25501</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" COLSPAN=5 HEIGHT="36" ALIGN="CENTER" VALIGN=MIDDLE><B>JURISDICCION SANITARIA II SAN CRISTÓBAL DE LAS CASAS</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=3>25901</FONT></B></TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=3>25301</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-        <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=3>25401</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=3>25501</FONT></B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;0.00%">0.00%</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
-                <td><a href="#">Editar</A>&nbsp;<a href="#">Eliminar</A></td>
-        </TR>
-        <TR>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" COLSPAN=5 HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B>JURISDICCION SANITARIA III COMITÁN</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-                <TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
-        </TR>
+<TABLE CELLSPACING="0" COLS="21" BORDER="0" STYLE="width: 100%">
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<COLGROUP></COLGROUP>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="34" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="LEFT" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>AUTORIZADO                        </B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>FINANCIERO</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>ESPECIE</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>TOTAL CALENDARIO</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>ENE</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>FEB</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>MAR</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>ABR</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> MAY</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> JUN</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> JUL</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>AGO</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>SEP</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>OCT</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>NOV</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>DIC</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a" HEIGHT="85" ALIGN="CENTER" VALIGN=TOP><B>TG</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=TOP><B>FF SFF DG</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=TOP><B>CP</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=TOP><B>MD</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B>PARTIDA</B></TD>
+		</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=1>25901</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="61584.09" SDNUM="2058;0;#,##0.00">61,584.09</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="61584.09" SDNUM="2058;0;#,##0.00">61,584.09</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="61584.09" SDNUM="2058;0;#,##0.00">61,584.09</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="45393.4" SDNUM="2058;0;#,##0.00">45,393.40</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="27000" SDNUM="2058;0;#,##0.00">27,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="27000" SDNUM="2058;0;#,##0.00">27,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="27000" SDNUM="2058;0;#,##0.00">27,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="24000" SDNUM="2058;0;#,##0.00">24,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="67680" SDNUM="2058;0;#,##0.00">67,680.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="67680" SDNUM="2058;0;#,##0.00">67,680.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="67680" SDNUM="2058;0;#,##0.00">67,680.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="60160" SDNUM="2058;0;#,##0.00">60,160.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="47772" SDNUM="2058;0;#,##0.00">47,772.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="47772" SDNUM="2058;0;#,##0.00">47,772.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="47772" SDNUM="2058;0;#,##0.00">47,772.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="42464" SDNUM="2058;0;#,##0.00">42,464.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="32" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="204036.09" SDNUM="2058;0;#,##0.00"><B>204,036.09</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="204036.09" SDNUM="2058;0;#,##0.00"><B>204,036.09</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="204036.09" SDNUM="2058;0;#,##0.00"><B>204,036.09</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="172017.4" SDNUM="2058;0;#,##0.00"><B>172,017.40</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=1>25901</FONT></B></TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="16190.69" SDNUM="2058;0;#,##0.00">16,190.69</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="41" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="32018.69" SDNUM="2058;0;#,##0.00"><B>32,018.69</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="36" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=1>25901</FONT></B></TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=1>25901</FONT></B></TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=1>25901</FONT></B></TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=1>25901</FONT></B></TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="25901" SDNUM="2058;"><B><FONT SIZE=1>25901</FONT></B></TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="9078.68" SDNUM="2058;0;#,##0.00">9,078.68</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="24906.68" SDNUM="2058;0;#,##0.00"><B>24,906.68</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25301" SDNUM="2058;"><B><FONT SIZE=1>25301</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="3000" SDNUM="2058;0;#,##0.00">3,000.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25401" SDNUM="2058;"><B><FONT SIZE=1>25401</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="7520" SDNUM="2058;0;#,##0.00">7,520.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" HEIGHT="29" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="8" SDNUM="2058;0;0"><B>8</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDNUM="2058;0;0"><B>822B S A</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="2014" SDNUM="2058;0;0"><B>2014</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="1" SDNUM="2058;0;0"><B>1</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE SDVAL="25501" SDNUM="2058;"><B><FONT SIZE=1>25501</FONT></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE BGCOLOR="#FFFFFF" SDVAL="5308" SDNUM="2058;0;#,##0.00">5,308.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" SDVAL="0" SDNUM="2058;0;#,##0.00">0.00</TD>
+	</TR>
+	<TR>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" HEIGHT="27" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="CENTER" VALIGN=MIDDLE><B><BR></B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="15828" SDNUM="2058;0;#,##0.00"><B>15,828.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ALIGN="RIGHT" VALIGN=MIDDLE SDVAL="0" SDNUM="2058;0;#,##0.00"><B>0.00</B></TD>
+	</TR>
 </TABLE>
-         

@@ -159,9 +159,15 @@ class ArbolProblemaController extends Controller
 	public function actionUpdate($id)
 	{
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Actualizar';
-        
-		$model=$this->loadModel($id);
-
+                
+                $arbolProblema = ArbolProblema::model()->findByAttributes(array('id_programa_presupuestal'=>$id));
+                $modelArbolProblema = $this->loadModel($arbolProblema->id_arbol_problematica);
+                
+                $arbolObjetivo = ArbolObjetivo::model()->findByAttributes(array('id_programa_presupuestal'=>$id));
+                $modelArbolObjetivo = new ArbolObjetivo;
+                
+                //$modelArbolObjetivo = ArbolObjetivoController::loadModel($arbolObjetivo->id_arbol_objetivo);
+                
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -173,7 +179,10 @@ class ArbolProblemaController extends Controller
 		}
 
 		$this->render('update',array(
-			'model'=>$model,
+			'modelArbolProblema'=>$modelArbolProblema,
+                        'arbolObjetivo'=>$arbolObjetivo,
+                        'modelArbolObjetivo'=>$modelArbolObjetivo,
+                        'idProgramaPresupuestal'=>$id,
 		));
 	}
 

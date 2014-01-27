@@ -65,15 +65,22 @@ class ProgramaPresupuestalController extends Controller
 	 */
 	public function actionView($id)
 	{
+                $existenArboles = false;
 		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Ver';
                 
                 $arbolProblemas = ArbolProblema::model()->findAllByAttributes(array('id_programa_presupuestal'=>$id));
+                if(!empty($arbolProblemas))
+                    $existenArboles = true;
+                
+                $arbolObjetivo = ArbolObjetivo::model()->findAllByAttributes(array('id_programa_presupuestal'=>$id));
+                if(!empty($arbolObjetivo))
+                    $existenArboles = true;
                 
                 //print_r($arbolProblemas);
         
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
-                        'model'
+                        'existenArboles' => $existenArboles,
 		));
 	}
 

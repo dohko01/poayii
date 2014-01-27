@@ -100,4 +100,18 @@ class ArbolProblema extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public function getCausas($id = 0) {
+            if($id == 0)
+                   $id = $this->id_arbol_problematica;
+            $problemas  = Problematica::model()->findAllByAttributes(array('id_arbol_problematica'=>$id, 'tipo'=>'causa'));
+            return $problemas;
+        }
+        
+        public function getEfectos($id = 0) {
+            if($id == 0)
+                   $id = $this->id_arbol_problematica;
+            $problemas  = Problematica::model()->findAllByAttributes(array('id_arbol_problematica'=>$id, 'tipo'=>'efecto'));
+            return $problemas;
+        }
 }

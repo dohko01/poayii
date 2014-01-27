@@ -2,18 +2,18 @@
 /* @var $this ProgramaPresupuestalController */
 /* @var $model ProgramaPresupuestal */
 
-$this->breadcrumbs=array(
-	$this->title_sin=>array('index'),
-	$model->id_programa_presupuestal,
-);
-
-$this->menu=array(
-	array('label'=>'Listar '.$this->title_plu, 'url'=>array('index')),
-	array('label'=>'Crear '.$this->title_sin, 'url'=>array('create')),
-	array('label'=>'Actualizar '.$this->title_sin, 'url'=>array('update', 'id'=>$model->id_programa_presupuestal)),
-	array('label'=>'Eliminar '.$this->title_sin, 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_programa_presupuestal),'confirm'=>'¿Esta seguro que desea eliminar el registro?','csrf'=>true)),
-	array('label'=>'Administrar '.$this->title_plu, 'url'=>array('admin')),
-);
+//$this->breadcrumbs=array(
+//	$this->title_sin=>array('index'),
+//	$model->id_programa_presupuestal,
+//);
+//
+//$this->menu=array(
+//	array('label'=>'Listar '.$this->title_plu, 'url'=>array('index')),
+//	array('label'=>'Crear '.$this->title_sin, 'url'=>array('create')),
+//	array('label'=>'Actualizar '.$this->title_sin, 'url'=>array('update', 'id'=>$model->id_programa_presupuestal)),
+//	array('label'=>'Eliminar '.$this->title_sin, 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_programa_presupuestal),'confirm'=>'¿Esta seguro que desea eliminar el registro?','csrf'=>true)),
+//	array('label'=>'Administrar '.$this->title_plu, 'url'=>array('admin')),
+//);
 ?>
 
 <h1>Datos del <?php echo $this->title_sin; ?></h1>
@@ -52,8 +52,19 @@ $this->menu=array(
             'buttonType'=>'link',
             'name'=>'btnArbolProblema',
             'value'=>$model->id_programa_presupuestal,
-            'url'=>Yii::app()->createUrl('arbolProblema/create',array('id_programa_presupuestal'=>$model->id_programa_presupuestal)),
-            'caption'=>'Capturar Arbol de Problemas y Objetivos',
+            'url'=> ($existenArboles) ? Yii::app()->createUrl('arbolProblema/update/'.$model->id_programa_presupuestal) : Yii::app()->createUrl('arbolProblema/create',array('id_programa_presupuestal'=>$model->id_programa_presupuestal)),
+            'caption' => ($existenArboles) ? 'Ver Arbol de Problemas y Objetivos' : 'Capturar Arbol de Problemas y Objetivos',
             )
         );
+        if($existenArboles)
+        {
+            $this->widget('zii.widgets.jui.CJuiButton',array(
+                'buttonType'=>'link',
+                'name'=>'btnIndicadores',
+                'value'=>$model->id_programa_presupuestal,
+                'url'=> Yii::app()->createUrl('objetivoIndicador/create',array('id_programa_presupuestal'=>$model->id_programa_presupuestal)),
+                'caption' => 'Capturar Indicadores',
+                )
+            );
+        }
 ?>
