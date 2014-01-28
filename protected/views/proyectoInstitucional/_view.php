@@ -3,7 +3,7 @@
 /* @var $data ProyectoInstitucional */
 ?>
 
-<div class="view">
+<div class="view well">
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_proyecto_institucional')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->id_proyecto_institucional), array('view', 'id'=>$data->id_proyecto_institucional)); ?>
