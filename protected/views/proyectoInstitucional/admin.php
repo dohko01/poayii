@@ -23,6 +23,7 @@ $('.search-form form').submit(function(){
 	});
 	return false;
 });
+$('.button-column a').tooltip();
 ");
 ?>
 
@@ -59,6 +60,18 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 		'id_tipo_accion',
 		'id_caratula_poa',
 		*/
+        array(
+			'class'=>'CButtonColumn',
+            'template' => '{beneficiarios}',
+            'buttons' => array(
+                'beneficiarios' => array(
+                    'label'=>'Beneficiarios',
+                    'caption'=>'Beneficiarios',
+                    'url'=>'Yii::app()->createUrl("/beneficiario/", array())',
+                    'imageUrl'=>Yii::app()->request->baseUrl.'/images/beneficiarios.png',
+                ),
+            ),
+		),
 		array(
 			'class'=>'CButtonColumn',
 		),

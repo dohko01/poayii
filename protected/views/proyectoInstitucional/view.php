@@ -27,12 +27,29 @@ $this->menu=array(
 		'jefe_inmediato',
 		'jefe_planeacion',
 		'coordinador_grupo_estrategico',
-		'id_actividad_institucional',
-		'id_sub_subfuncion',
-		'id_programa_especial',
-		'id_proyecto_estrategico',
-		'id_proyecto_tipo',
-		'id_tipo_accion',
-		'id_caratula_poa',
+        array(
+            'name'  => 'id_actividad_institucional',
+            'value' => $model->ActividadInstitucional->descripcion,
+        ),
+        array(
+            'name'  => 'id_sub_subfuncion',
+            'value' => $model->SubSubfuncion->descripcion,
+        ),
+		array(
+            'name'  => 'id_programa_especial',
+            'value' => $model->ProgramaEspecial->nombre,
+        ),
+        array(
+            'name'  => 'id_proyecto_estrategico',
+            'value' => $model->ProyectoEstrategico->descripcion,
+        ),
+        array(
+            'name'  => 'id_proyecto_tipo',
+            'value' => $model->ProyectoTipo->descripcion,
+        ),
+		array(
+            'name'  => 'id_tipo_accion',
+            'value' => $model->TipoAccion->descripcion,
+        ),
 	),
 )); ?>
