@@ -19,7 +19,7 @@
 
 	<?php echo $form->errorSummary($model); ?>
         <fieldset>
-            <legend><h1>Objetivos e Indicadores del Fin</h1></legend>
+            <legend><h1>Objetivos e Indicadores del Proposito</h1></legend>
             <div class="row">
                     <?php echo $form->labelEx($model,'objetivo'); ?>
                     <?php echo $form->textArea($model,'objetivo',array('rows'=>6, 'cols'=>50)); ?>
@@ -46,7 +46,7 @@
             </div>
             
             <fieldset>
-                <legend><h1>Indicadores del Fin</h1></legend>
+                <legend><h1>Indicadores del Proposito</h1></legend>
                 <?php //echo $form->errorSummary($modelIndicador); ?>
 
                 <div class="row">
@@ -204,7 +204,7 @@
         $this->widget('zii.widgets.jui.CJuiButton',array(
             'buttonType'=>'button',
             'name'=>'btnEnviarForm',
-            'htmlOptions' => array('onClick'=>'window.open(\'/poayii/objetivoIndicador/createProposito\',\'_self\')'),
+            'htmlOptions' => array('onClick'=>'window.open(\'/poayii/proyectoInstitucional/create\',\'_self\')'),
             'value'=>'1',
             'caption'=>($model->isNewRecord ? 'Guardar' : 'Actualizar'),
             )

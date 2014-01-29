@@ -96,8 +96,8 @@ class ProgramaPresupuestal extends CActiveRecord
 			'id_objetivo_milenio' => 'Id Objetivo Milenio',
 			'id_modalidad' => 'Id Modalidad',
 			'id_caratula_poa' => 'Id Caratula Poa',
-			'anio_inicio' => 'Anio Inicio',
-			'anio_termino' => 'Anio Termino',
+			'anio_inicio' => 'Año Inicio',
+			'anio_termino' => 'Año Termino',
 		);
 	}
 

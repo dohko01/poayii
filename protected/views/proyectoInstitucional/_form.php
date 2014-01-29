@@ -153,8 +153,9 @@
 	<div class="row buttons">
 		<?php 
         $this->widget('zii.widgets.jui.CJuiButton',array(
-            'buttonType'=>'submit',
+            'buttonType'=>'button',
             'name'=>'btnEnviarForm',
+            'htmlOptions' => array('onClick'=>'window.open(\'/poayii/beneficiario/create\',\'_self\')'),
             'value'=>'1',
             'caption'=>($model->isNewRecord ? 'Guardar' : 'Actualizar'),
             )

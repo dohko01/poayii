@@ -118,7 +118,7 @@
                                 </thead>
                                 <tbody id="tblMedios">
                                     <?php
-                                        $medios = $modelArbolObjetivo->getMedios();
+                                        $medios = $modelArbolObjetivo->getMedios($arbolObjetivo->id_arbol_objetivo);
                                         foreach($medios as $medio)
                                         {
                                     ?>
@@ -151,7 +151,7 @@
                                 </thead>
                                 <tbody id="tblFines">
                                     <?php
-                                        $fines = $modelArbolObjetivo->getFines();
+                                        $fines = $modelArbolObjetivo->getFines($arbolObjetivo->id_arbol_objetivo);
                                         foreach($fines as $fin)
                                         {
                                     ?>
@@ -204,10 +204,11 @@
 	<div class="row buttons">
 		<?php 
                 $this->widget('zii.widgets.jui.CJuiButton',array(
-                    'buttonType'=>'submit',
+                    'buttonType'=>'button',
                     'name'=>'btnEnviarForm',
+                    'htmlOptions' => array('onClick'=>'window.open(\'/poayii/objetivoIndicador/create\',\'_self\')'),
                     'value'=>'1',
-                    'caption'=>($modelArbolProblema->isNewRecord ? 'Siguiente' : 'Actualizar'),
+                    'caption'=>($modelArbolProblema->isNewRecord ? 'Siguiente' : 'Siguiente'),
                     )
                 );
                 ?>

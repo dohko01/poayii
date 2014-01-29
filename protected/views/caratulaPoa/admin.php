@@ -71,7 +71,7 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
 		//'id_usuario',
 		array(
 			'class'=>'CButtonColumn',
-                        'template'=>'{programaP}{listProgramaPresupuestal}{view}{update}{delete}',
+                        'template'=>'{programaP}{listProgramaPresupuestal}{listDistribucion}{view}{update}{delete}',
                         'buttons'=>array(
                                     'programaP' => array(
                                         'label' => 'Agregar Programa Presupuestal',
@@ -83,6 +83,12 @@ Operadores de comparaci&oacute;n soportados por el campo busqueda: <b>&lt;</b>, 
                                         'imageUrl' => Yii::app()->request->baseUrl.'/images/list-icon.png',
                                         'options' => array('class'=>'cButtonColumn'),
                                         'url' => 'Yii::app()->createUrl("ProgramaPresupuestal/admin", array("id_caratula_poa"=>"$data->id_caratula_poa"))',
+                                    ),
+                                    'listDistribucion' => array(
+                                        'label' => 'Ver Distribución por Partida',
+                                        'imageUrl' => Yii::app()->request->baseUrl.'/images/money.png',
+                                        'options' => array('class'=>'cButtonColumn'),
+                                        'url' => 'Yii::app()->createUrl("proyectoInstitucional/distribucionPresupuestal", array("id_caratula_poa"=>"$data->id_caratula_poa"))',
                                     ),
                                 ),
 		),

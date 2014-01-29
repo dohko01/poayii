@@ -46,7 +46,7 @@ class CaratulaPoaController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','consultas'),
 				'expression'=>Yii::app()->params['permiso_acceso'],
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -165,6 +165,20 @@ class CaratulaPoaController extends Controller
 			$model->attributes=$_GET['CaratulaPoa'];
 
 		$this->render('admin',array(
+			'model'=>$model,
+		));
+	}
+        
+        public function actionConsultas()
+	{
+		$this->pageTitle = Yii::app()->name.' - '.$this->title_sin.' - Administración';
+        
+		$model=new CaratulaPoa('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['CaratulaPoa']))
+			$model->attributes=$_GET['CaratulaPoa'];
+
+		$this->render('consultas',array(
 			'model'=>$model,
 		));
 	}

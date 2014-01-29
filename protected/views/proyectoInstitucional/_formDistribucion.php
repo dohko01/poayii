@@ -23,7 +23,7 @@
     <tr>
         <th>
             <SELECT style="width: 200px;">
-                <OPTION>Seleccionar...</OPTION> 
+                <OPTION>Seleccionar...</OPTION>
                 <OPTION>Subsidios al Estado y Municipios.</OPTION>
                 <OPTION>Otros Subsidios. </OPTION>
                 <OPTION>Subsidios a  Organismos y Empresas Públicas.</OPTION>
@@ -41,28 +41,28 @@
                 <OPTION>Seguro Escolar (Exclusivo Educación Básica). </OPTION>
                 <OPTION>Pensiones de Gracia. </OPTION>
                 <OPTION>Becas para Aspirantes en Cursos de Formación Inicial (Exclusivo Seguridad Pública) </OPTION>
-              <OPTION>  Ayudas a la Educación. </OPTION>
-             <OPTION>   Ayuda para Arrendamiento de Inmuebles de las Supervisorías  Escolares (Exclusivo Educación Básica). </OPTION>
-             <OPTION>   Ayudas a Voluntarios que Participan en Programas Especiales de Educación. </OPTION>
-             <OPTION>   Ayudas a Instituciones Sin Fines de Lucro. </OPTION>
-             <OPTION>   Financiamiento Público a Partidos Políticos y Agrupaciones Políticas con Registro Autorizado. </OPTION>
-             <OPTION>   Otras Ayudas. </OPTION>
-             <OPTION>   Ayudas a Instituciones Educativas Afectadas por Fenómenos Naturales. </OPTION>
-             <OPTION>   Pensiones. </OPTION>
-              <OPTION>  Jubilaciones. </OPTION>
-              <OPTION>  Aportaciones a Fideicomisos Públicos. </OPTION>
-              <OPTION>  Aportaciones a Mandatos Públicos. </OPTION>
-              <OPTION>  Aportaciones Internacionales </OPTION>
-              <OPTION>  Mobiliario.  </OPTION>
-              <OPTION>  Bienes Artísticos y Culturales.  </OPTION>
-              <OPTION>  Bienes Informáticos.  </OPTION>
-              <OPTION>  Equipo de Administración. </OPTION>
-              <OPTION>  Adjudicaciones, Expropiaciones e Indemnizaciones de Bienes Muebles.</OPTION>
+                <OPTION>Ayudas a la Educación. </OPTION>
+                <OPTION>Ayuda para Arrendamiento de Inmuebles de las Supervisorías  Escolares (Exclusivo Educación Básica). </OPTION>
+                <OPTION>Ayudas a Voluntarios que Participan en Programas Especiales de Educación. </OPTION>
+                <OPTION>Ayudas a Instituciones Sin Fines de Lucro. </OPTION>
+                <OPTION>Financiamiento Público a Partidos Políticos y Agrupaciones Políticas con Registro Autorizado. </OPTION>
+                <OPTION>Otras Ayudas. </OPTION>
+                <OPTION>Ayudas a Instituciones Educativas Afectadas por Fenómenos Naturales. </OPTION>
+                <OPTION>Pensiones. </OPTION>
+                <OPTION>Jubilaciones. </OPTION>
+                <OPTION>Aportaciones a Fideicomisos Públicos. </OPTION>
+                <OPTION>Aportaciones a Mandatos Públicos. </OPTION>
+                <OPTION>Aportaciones Internacionales </OPTION>
+                <OPTION>Mobiliario.  </OPTION>
+                <OPTION>Bienes Artísticos y Culturales.  </OPTION>
+                <OPTION>Bienes Informáticos.  </OPTION>
+                <OPTION>Equipo de Administración. </OPTION>
+                <OPTION>Adjudicaciones, Expropiaciones e Indemnizaciones de Bienes Muebles.</OPTION>
                 <OPTION>Equipos y Aparatos Audiovisuales. </OPTION>
                 <OPTION>Aparatos Deportivos.</OPTION>
                 <OPTION>Cámaras Fotográficas y de Video. </OPTION>
                 <OPTION>Otro Mobiliario y Equipo Educacional y Recreativo. </OPTION>
-               <OPTION> Equipo Médico y de Laboratorio. </OPTION>
+                <OPTION>Equipo Médico y de Laboratorio. </OPTION>
                 <OPTION>Instrumental Médico y de Laboratorio. </OPTION>
                 <OPTION>Vehículos y Equipo Terrestre. </OPTION>
                 <OPTION>Carrocerías y Remolques. </OPTION>
@@ -326,9 +326,9 @@
 		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>FEB</B></TD>
 		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>MAR</B></TD>
 		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>ABR</B></TD>
-		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> MAY</B></TD>
-		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> JUN</B></TD>
-		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B> JUL</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>MAY</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>JUN</B></TD>
+		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>JUL</B></TD>
 		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>AGO</B></TD>
 		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>SEP</B></TD>
 		<TD STYLE="border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; border-left: 1px solid #1a1a1a; border-right: 1px solid #1a1a1a" ROWSPAN=2 ALIGN="CENTER" VALIGN=MIDDLE BGCOLOR="#FFFFFF"><B>OCT</B></TD>
